@@ -1,1 +1,1 @@
-{"config":{"indexing":"full","lang":["en"],"min_search_length":3,"prebuild_index":false,"separator":"[\\s\\-]+"},"docs":[{"location":"","text":"Welcome to SSC For full documentation visit mkdocs.org .","title":"Home"},{"location":"#welcome-to-ssc","text":"For full documentation visit mkdocs.org .","title":"Welcome to SSC"}]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Welcome to SSC","text":"<p>For full documentation visit mkdocs.org.</p>"}]}
