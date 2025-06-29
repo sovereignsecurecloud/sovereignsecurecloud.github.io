@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sovereignsecurecloud.com/</loc>
-         <lastmod>2025-06-27</lastmod>
+         <lastmod>2025-06-29</lastmod>
+    </url>
+    <url>
+         <loc>https://sovereignsecurecloud.com/quickstart/</loc>
+         <lastmod>2025-06-29</lastmod>
+    </url>
+    <url>
+         <loc>https://sovereignsecurecloud.com/quickstart/login/</loc>
+         <lastmod>2025-06-29</lastmod>
     </url>
 </urlset>
