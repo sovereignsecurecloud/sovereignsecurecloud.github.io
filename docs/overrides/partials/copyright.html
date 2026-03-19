@@ -1,0 +1,16 @@
+<div class="md-copyright">
+    {% if config.copyright %}
+    <div class="md-copyright__highlight">
+        {{ config.copyright }}
+    </div>
+    {% endif %}
+    {% if not config.extra.generator == false %}
+    Made with
+    <span class="twemoji heart">
+        {% include ".icons/HeartFill24.svg" %}
+    </span> by
+    <a href="https://github.com/sovereignsecurecloud/sovereignsecurecloud.github.io" target="_blank" rel="noopener">
+        SovereignSecure Cloud team
+    </a>
+    {% endif %}
+</div>

@@ -1,5 +1,146 @@
-site_name: My Docs
+
+
 nav:
   - Home: index.md
-  - About: about.md
-theme: readthedocs
+  - Quick Start:
+      - Quick Start: quickstart/index.md
+      - Client: quickstart/login.md
+  - API:
+      - Overview: api/index.md
+      - Client: api/login.md
+  - User Guide:
+      - Overview: cmp/index.md
+  - Kubernetes:
+      - Overview: kubernetes/index.md
+  - Compute:
+      - Overview: compute/index.md
+      - Instance: 
+          - Overview: compute/image.md
+          - User Guide: compute/instance_user.md
+      - GPU Instance: compute/gpu_instance.md
+      - Images: compute/image.md
+          
+
+
+# Site Setting
+site_name: SovereignSecure Cloud
+site_author: kkramineni
+site_description: test
+
+repo_name: sovereignsecurecloud
+repo_url: https://github.com/sovereignsecurecloud/sovereignsecurecloud.github.io
+site_url: "https://sovereignsecurecloud.com/"
+copyright: Copyright &copy; SovereignSecure Cloud
+
+extra_css:
+  - custom/extra.css
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+
+
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  features:
+    - navigation.top
+    # - navigation.instant
+    - navigation.tabs
+    - search.suggest
+    - content.code.annotate
+    - content.code.copy
+    - toc.follow
+    - content.tooltips
+    - navigation.indexes
+    - content.footnote.tooltips
+    - announce.dismiss
+
+  language: en
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Google Sans
+    code: Roboto Mono
+markdown_extensions:
+  - admonition
+  - attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - md_in_html
+  - toc:
+      permalink: "#"
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight:
+      line_spans: __span
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: srl-labs
+      repo: containerlab
+  - pymdownx.mark
+  - pymdownx.smartsymbols:
+      fractions: false
+  - pymdownx.snippets:
+      check_paths: true
+      dedent_subsections: true
+      url_download: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.blocks.tab:
+      alternate_style: true
+  - pymdownx.blocks.admonition
+  - pymdownx.blocks.definition
+  - pymdownx.blocks.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
