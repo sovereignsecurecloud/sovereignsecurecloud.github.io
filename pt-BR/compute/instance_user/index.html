@@ -1,0 +1,3292 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="User Description for SovereignSecure Cloud">
+      
+      
+        <meta name="author" content="kkramineni">
+      
+      
+        <link rel="canonical" href="https://sovereignsecurecloud.com/pt-BR/compute/instance_user/">
+      
+      
+        <link rel="prev" href="../instance/">
+      
+      
+        <link rel="next" href="../gpu_instance/">
+      
+      
+        
+          <link rel="alternate" href="../../../compute/instance_user/" hreflang="en">
+        
+          <link rel="alternate" href="./" hreflang="pt-BR">
+        
+          <link rel="alternate" href="../../../de/compute/instance_user/" hreflang="de">
+        
+      
+      
+      <link rel="icon" href="../../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Guia do Usuário da Instância - SovereignSecure Cloud</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Google Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../custom/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+<!-- Determine title -->
+
+
+
+
+
+
+
+
+
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guia-do-usuario-da-instancia" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../" title="SovereignSecure Cloud" class="md-header__button md-logo" aria-label="SovereignSecure Cloud" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SovereignSecure Cloud
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Guia do Usuário da Instância
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="cyan"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Selecione o idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../compute/instance_user/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="pt-BR" class="md-select__link">
+              Portuguese (Brasilian)
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../de/compute/instance_user/" hreflang="de" class="md-select__link">
+              German
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l137.3-137.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="SovereignSecure Cloud" class="md-nav__button md-logo" aria-label="SovereignSecure Cloud" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    SovereignSecure Cloud
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bem-vindo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../quickstart/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Primeiros Passos
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Primeiros Passos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quickstart/login/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acesso e Configuração de Cliente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quickstart/compliance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conformidade e Soberania
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../cmp/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gerenciamento de Nuvem (CMP)
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gerenciamento de Nuvem (CMP)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cmp/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catálogos de Serviços
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cmp/reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cobrança e Relatórios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Computação
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Computação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openstack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OpenStack IaaS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../instance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Instâncias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia do Usuário da Instância
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia do Usuário da Instância
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#criar-instancias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criar Instâncias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Criar Instâncias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuracoes-de-so" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configurações de SO
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#imagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Imagem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armazenamento-em-bloco-raiz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armazenamento em Bloco Raiz
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recurso-original" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recurso Original
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tamanho-do-armazenamento-em-bloco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tamanho do Armazenamento em Bloco
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tipo-de-armazenamento-em-bloco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tipo de Armazenamento em Bloco
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zona-de-disponibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zona de Disponibilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flavor-tamanhoperfil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flavor (Tamanho/Perfil)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#numero-de-instancias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Número de Instâncias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#par-de-chaves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Par de Chaves
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rede" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rede
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ip-flutuante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IP Flutuante
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grupo-de-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grupo de Segurança
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armazenamento-em-bloco-adicional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armazenamento em Bloco Adicional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#politica-de-posicionamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Política de Posicionamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#script-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Script de Usuário
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Script de Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linux
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-adicionais-da-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recursos Adicionais da Instância
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recursos Adicionais da Instância">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alterar-o-status-da-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alterar o Status da Instância
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criar-imagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criar Imagem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#associardesassociar-ip-flutuante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Associar/Desassociar IP Flutuante
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificar-grupo-de-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificar Grupo de Segurança
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alterar-sub-rede-de-rede" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alterar Sub-rede de Rede
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificar-flavor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificar Flavor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alterar-detalhes-do-so-da-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alterar Detalhes do SO da Instância
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alterar-a-descricao-da-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alterar a Descrição da Instância
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alterar-o-par-de-chaves-da-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alterar o Par de Chaves da Instância
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gerenciar-politicas-de-posicionamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gerenciar Políticas de Posicionamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pares-de-chaves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pares de Chaves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pares de Chaves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#importar-pares-de-chaves-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importar Pares de Chaves (Windows)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importar-pares-de-chaves-mac-e-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importar Pares de Chaves (Mac e Linux)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gpu_instance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Instâncias de GPU
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bmaas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bare Metal (BMaaS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../image/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Imagens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../keypair/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pares de Chaves
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../storage/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armazenamento
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Armazenamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../storage/ceph/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ceph SDS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../storage/block_storage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armazenamento em Bloco
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../storage/object_storage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armazenamento de Objetos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../storage/file_storage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armazenamento de Arquivos Compartilhados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../network/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Redes
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Redes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../network/sdn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDN (SONiC e OVN)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../network/vpc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    VPC e Sub-redes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../network/routers_fips/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roteadores e IPs Flutuantes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../network/security_group/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grupos de Segurança
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../network/load_balancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Balanceadores de Carga
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../network/vpn_direct_connect/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    VPN e Conexão Direta
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../kubernetes/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contêineres e Kubernetes
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contêineres e Kubernetes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kubernetes/k3s/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    K3s Kubernetes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kubernetes/kaas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KaaS (Cluster API)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kubernetes/clusters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Implantando Clusters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../identity/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Identidade e Segurança
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Identidade e Segurança
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../identity/keycloak/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Keycloak IAM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../identity/projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Usuários e Projetos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../identity/roles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Funções e Políticas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../identity/teleport/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teleport PAM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../identity/siem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SIEM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../identity/kms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gerenciamento de Chaves (KMS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../observability/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Observabilidade e Monitoramento
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Observabilidade e Monitoramento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../observability/prometheus_grafana/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prometheus e Grafana
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../api/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API e Automação
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_10" id="__nav_10_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    API e Automação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/login/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuração da CLI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/iac/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infraestrutura como Código (IaC)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#criar-instancias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criar Instâncias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Criar Instâncias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuracoes-de-so" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configurações de SO
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#imagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Imagem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armazenamento-em-bloco-raiz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armazenamento em Bloco Raiz
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recurso-original" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recurso Original
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tamanho-do-armazenamento-em-bloco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tamanho do Armazenamento em Bloco
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tipo-de-armazenamento-em-bloco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tipo de Armazenamento em Bloco
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zona-de-disponibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zona de Disponibilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flavor-tamanhoperfil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flavor (Tamanho/Perfil)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#numero-de-instancias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Número de Instâncias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#par-de-chaves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Par de Chaves
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rede" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rede
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ip-flutuante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IP Flutuante
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grupo-de-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grupo de Segurança
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armazenamento-em-bloco-adicional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armazenamento em Bloco Adicional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#politica-de-posicionamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Política de Posicionamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#script-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Script de Usuário
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Script de Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linux
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-adicionais-da-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recursos Adicionais da Instância
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recursos Adicionais da Instância">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alterar-o-status-da-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alterar o Status da Instância
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criar-imagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criar Imagem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#associardesassociar-ip-flutuante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Associar/Desassociar IP Flutuante
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificar-grupo-de-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificar Grupo de Segurança
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alterar-sub-rede-de-rede" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alterar Sub-rede de Rede
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificar-flavor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificar Flavor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alterar-detalhes-do-so-da-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alterar Detalhes do SO da Instância
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alterar-a-descricao-da-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alterar a Descrição da Instância
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alterar-o-par-de-chaves-da-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alterar o Par de Chaves da Instância
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gerenciar-politicas-de-posicionamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gerenciar Políticas de Posicionamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pares-de-chaves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pares de Chaves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pares de Chaves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#importar-pares-de-chaves-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importar Pares de Chaves (Windows)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importar-pares-de-chaves-mac-e-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importar Pares de Chaves (Mac e Linux)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navegação" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../" class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Bem-vindo
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Computação
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+
+                  
+
+
+
+<h1 id="guia-do-usuario-da-instancia">Guia do Usuário da Instância<a class="headerlink" href="#guia-do-usuario-da-instancia" title="Permanent link">#</a></h1>
+<h2 id="criar-instancias">Criar Instâncias<a class="headerlink" href="#criar-instancias" title="Permanent link">#</a></h2>
+<p>Você pode criar instâncias usando as configurações abaixo ou usando Terraform/OpenTofu. Para criar instâncias usando Terraform/OpenTofu, selecione a página Criar Instância.</p>
+<h3 id="configuracoes-de-so">Configurações de SO<a class="headerlink" href="#configuracoes-de-so" title="Permanent link">#</a></h3>
+<p>Determine como será criado o armazenamento em bloco raiz que será usado quando uma instância for criada.</p>
+<ul>
+<li>Selecione <strong>Criar Novo e Configurar</strong> (Create New and Set up) ou <strong>Usar Recurso Existente</strong> (Use Existing Resource).</li>
+<li>Se você selecionar Criar Novo e Configurar, crie o armazenamento em bloco raiz usando uma imagem.</li>
+<li>Se você selecionar Usar Recurso Existente, use um armazenamento em bloco ou snapshot criado anteriormente.</li>
+</ul>
+<h3 id="imagem">Imagem<a class="headerlink" href="#imagem" title="Permanent link">#</a></h3>
+<p>Selecione a imagem que contém o sistema operacional que você precisa. Você pode escolher entre imagens públicas fornecidas pela SovereignSecure Cloud, imagens que você criou anteriormente ou imagens compartilhadas.</p>
+<p>Os flavors (tamanhos) de instância disponíveis variam de acordo com a imagem que você escolher, portanto, recomendamos que você escolha uma imagem primeiro ao criar uma instância.</p>
+<table>
+<thead>
+<tr>
+<th>SO</th>
+<th>Tamanho do Disco do SO</th>
+<th>Memória</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linux</td>
+<td>10GB</td>
+<td>4GB</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>40GB</td>
+<td>4GB</td>
+</tr>
+</tbody>
+</table>
+<h3 id="armazenamento-em-bloco-raiz">Armazenamento em Bloco Raiz<a class="headerlink" href="#armazenamento-em-bloco-raiz" title="Permanent link">#</a></h3>
+<p>Configure o armazenamento em bloco raiz de acordo com as configurações do SO.</p>
+<ul>
+<li>Se você selecionar <strong>Criar Novo e Configurar</strong>, crie o armazenamento em bloco raiz especificando o <strong>tipo de armazenamento em bloco</strong> e o <strong>tamanho do armazenamento em bloco</strong>.</li>
+<li>Se você selecionar Usar <strong>Recurso Existente</strong>, especifique o <strong>recurso original</strong> a ser usado como armazenamento em bloco raiz.</li>
+</ul>
+<h3 id="recurso-original">Recurso Original<a class="headerlink" href="#recurso-original" title="Permanent link">#</a></h3>
+<p>Você pode selecionar um <strong>armazenamento em bloco</strong> ou <strong>snapshot</strong> criado anteriormente.</p>
+<p>Ao selecionar <strong>armazenamento em bloco</strong>, use o armazenamento em bloco criado anteriormente como o armazenamento em bloco raiz.
+Ao selecionar <strong>snapshot</strong>, o armazenamento em bloco raiz é criado usando um snapshot criado anteriormente.</p>
+<h3 id="tamanho-do-armazenamento-em-bloco">Tamanho do Armazenamento em Bloco<a class="headerlink" href="#tamanho-do-armazenamento-em-bloco" title="Permanent link">#</a></h3>
+<p>Especifique o tamanho do armazenamento em bloco raiz de uma instância.</p>
+<p>O tamanho do armazenamento em bloco deve ter pelo menos o tamanho mínimo exigido pela imagem.
+O tamanho do armazenamento em bloco raiz varia dependendo do flavor da instância.</p>
+<table>
+<thead>
+<tr>
+<th>Flavors</th>
+<th>Tamanho de Armazenamento em Bloco Suportado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>g</td>
+<td>10GB</td>
+</tr>
+<tr>
+<td>m</td>
+<td>40GB</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Como você é cobrado pelo tamanho do armazenamento em bloco, não é eficiente aumentar o tamanho padrão do armazenamento em bloco sem consideração. Recomendamos que você adicione armazenamento em bloco adicional conforme necessário.
+* Se você selecionar armazenamento em bloco para Usar Recurso Existente nas configurações do SO, não poderá alterar o tamanho do armazenamento em bloco.
+* Se você selecionar snapshot para Usar Recurso Existente nas configurações do SO, o tamanho do armazenamento em bloco deverá ser igual ou maior que o tamanho original do armazenamento em bloco.</p>
+</div>
+<h3 id="tipo-de-armazenamento-em-bloco">Tipo de Armazenamento em Bloco<a class="headerlink" href="#tipo-de-armazenamento-em-bloco" title="Permanent link">#</a></h3>
+<p>Determina o tipo de armazenamento em bloco padrão de uma instância.</p>
+<p>Escolha entre HDD ou SSD. A escolha do tipo de armazenamento em bloco afeta o preço e o desempenho.
+Você não pode alterar o tipo de armazenamento em bloco após a criação da instância.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Se você selecionar Usar Recurso Existente nas configurações do SO, não poderá alterar o tipo de armazenamento em bloco.</p>
+</div>
+<h3 id="zona-de-disponibilidade">Zona de Disponibilidade<a class="headerlink" href="#zona-de-disponibilidade" title="Permanent link">#</a></h3>
+<p>Se uma zona de disponibilidade não for especificada, uma zona aleatória será selecionada. Uma instância só pode usar um armazenamento em bloco se ambos existirem na mesma zona de disponibilidade. Se o armazenamento em bloco que você deseja usar existir em uma zona de disponibilidade específica, selecione essa zona.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul>
+<li>Recursos em uma VPC podem ser usados em qualquer zona de disponibilidade.</li>
+<li>Se você selecionar Usar Recurso Existente nas configurações do SO, não poderá alterar a zona de disponibilidade.</li>
+</ul>
+</div>
+<p>Para obter mais detalhes sobre zonas de disponibilidade, consulte Zona de Disponibilidade na Visão Geral de Instâncias.</p>
+<h3 id="flavor-tamanhoperfil">Flavor (Tamanho/Perfil)<a class="headerlink" href="#flavor-tamanhoperfil" title="Permanent link">#</a></h3>
+<p>Você pode selecionar vários flavors dependendo das especificações de desempenho de hardware virtual. No entanto, a escolha de alguns flavors pode ser limitada dependendo do desempenho de hardware virtual exigido pela sua imagem. Para mais detalhes, consulte Visão Geral de Instâncias.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>1 vCPU refere-se a um soquete composto por um thread e um núcleo, o número de threads e o número de núcleos por soquete são constantes, um cada.</p>
+</div>
+<p>Os flavors de instância podem ser alterados no console da SovereignSecure Cloud mesmo após a criação da instância, de especificações mais altas para mais baixas e vice-versa. No entanto, observe que alguns flavors não podem ser alterados. Consulte Modificar flavor para obter detalhes.</p>
+<div class="admonition warning">
+<p class="admonition-title">Aviso</p>
+<p>O armazenamento em bloco raiz de uma instância não pode ser alterado alterando os flavors da instância.</p>
+</div>
+<h3 id="numero-de-instancias">Número de Instâncias<a class="headerlink" href="#numero-de-instancias" title="Permanent link">#</a></h3>
+<p>Você pode especificar o número de instâncias que deseja criar ao criar várias instâncias com a mesma imagem, zona de disponibilidade, flavor, tamanho de armazenamento em bloco, par de chaves e configurações de rede. Os nomes das instâncias serão o nome especificado, com números como -1 e -2 anexados ao final. Por exemplo, criar duas instâncias chamadas <code>minha-instancia</code> resultará em <code>minha-instancia-1</code> e <code>minha-instancia-2</code>. O número máximo de instâncias que você pode criar de uma vez é 10.</p>
+<p>Ao criar várias instâncias sem especificar uma zona de disponibilidade, cada instância será criada em uma zona de disponibilidade selecionada aleatoriamente. Por exemplo, se duas instâncias forem criadas sem especificar uma zona de disponibilidade, elas poderão ser criadas na mesma zona ou em zonas diferentes. Se todas as instâncias precisarem ser criadas na mesma zona de disponibilidade, selecione uma zona específica.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Se você selecionar armazenamento em bloco para Usar Recurso Existente nas configurações do SO ou Usar Interface de Rede Existente nas configurações de rede, o número de instâncias será limitado a 1.</p>
+</div>
+<h3 id="par-de-chaves">Par de Chaves<a class="headerlink" href="#par-de-chaves" title="Permanent link">#</a></h3>
+<p>Use um par de chaves existente ou crie um novo par de chaves. Para registrar um par de chaves existente, consulte Importar Par de Chaves (Windows) para usuários do Windows e Importar Par de Chaves (Mac e Linux) para usuários de Mac e Linux.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>O Par de Chaves é um recurso atribuído à conta do usuário, portanto, não é excluído quando você exclui um projeto.</p>
+</div>
+<h3 id="rede">Rede<a class="headerlink" href="#rede" title="Permanent link">#</a></h3>
+<p>Selecione uma sub-rede definida na sua VPC para se conectar a uma instância. Para cada sub-rede selecionada, uma interface de rede é criada na instância para se conectar a essa sub-rede. Você pode alterar a ordem das sub-redes selecionadas para alterar as interfaces de rede, caso em que a primeira interface de rede (eth0) será definida como o gateway padrão.</p>
+<p>Para obter mais detalhes sobre como criar e gerenciar redes, consulte a Visão Geral de VPC.</p>
+<h3 id="ip-flutuante">IP Flutuante<a class="headerlink" href="#ip-flutuante" title="Permanent link">#</a></h3>
+<p>Selecione se deseja usar um IP flutuante após a criação da instância. Se você habilitar essa opção, um novo IP flutuante será criado e conectado à primeira interface de rede. Observe que a primeira interface de rede deve estar conectada a uma sub-rede onde um gateway de internet esteja configurado.</p>
+<p>O IP Flutuante pode ser gerenciado em Instância &gt; Gerenciamento ou Instância &gt; IP Flutuante. Para mais detalhes sobre IP flutuante, consulte o Guia do Console VPC.</p>
+<h3 id="grupo-de-seguranca">Grupo de Segurança<a class="headerlink" href="#grupo-de-seguranca" title="Permanent link">#</a></h3>
+<p>Selecione os grupos de segurança nos quais a instância será incluída. Uma instância pode ser incluída em vários grupos de segurança, caso em que:</p>
+<ul>
+<li>A instância pode se comunicar pela rede com todas as outras instâncias incluídas em cada grupo de segurança. Ao lidar com uma instância com dados confidenciais que não devem ser acessíveis por outras instâncias, você deve selecionar cuidadosamente os grupos de segurança.</li>
+<li>As regras de cada grupo de segurança são agregadas e aplicadas à comunicação de rede externa da instância.</li>
+</ul>
+<p>Para mais detalhes sobre grupos de segurança, consulte o Guia do Console VPC.</p>
+<h3 id="armazenamento-em-bloco-adicional">Armazenamento em Bloco Adicional<a class="headerlink" href="#armazenamento-em-bloco-adicional" title="Permanent link">#</a></h3>
+<p>Selecione se você anexará um armazenamento em bloco adicional após a criação da instância. Se você habilitar essa opção, um novo armazenamento em bloco separado do armazenamento em bloco raiz será criado e anexado à instância. Assim como no armazenamento em bloco raiz, você pode especificar o nome, o tipo de armazenamento e o tamanho do armazenamento em bloco adicional que criar.</p>
+<p>Ao usar o armazenamento em bloco raiz apenas para o SO e armazenar seus aplicativos e dados usados com frequência no armazenamento em bloco adicional, você pode facilmente migrar ou copiar seus aplicativos e dados usando os recursos de anexar/desanexar e de snapshot de armazenamento em bloco. Além disso, quando ocorrer uma falha na instância, você poderá recuperar facilmente seus serviços simplesmente desanexando o armazenamento em bloco adicional e anexando-o a outra instância.</p>
+<p>O armazenamento em bloco também pode ser gerenciado em Instância &gt; Armazenamento em Bloco. Para obter mais detalhes sobre armazenamento em bloco, consulte o Guia de Armazenamento em Bloco.</p>
+<h3 id="politica-de-posicionamento">Política de Posicionamento<a class="headerlink" href="#politica-de-posicionamento" title="Permanent link">#</a></h3>
+<p>Você pode usar políticas de posicionamento (placement policies) para colocar instâncias em hypervisors diferentes. Ao definir uma política de posicionamento no momento da criação da instância, as instâncias atribuídas à mesma política de posicionamento são criadas em hypervisors diferentes.</p>
+<div class="admonition warning">
+<p class="admonition-title">Aviso</p>
+<p>A criação da instância pode falhar em situações em que a implantação distribuída não for possível.</p>
+</div>
+<h3 id="script-de-usuario">Script de Usuário<a class="headerlink" href="#script-de-usuario" title="Permanent link">#</a></h3>
+<p>Você pode especificar um script a ser executado após a criação da instância. O script de usuário é executado após a inicialização inicial da instância e após a conclusão do processo de inicialização, incluindo a configuração de rede. Os scripts de usuário na SovereignSecure Cloud são executados por ferramentas automatizadas, como cloud-init (Linux) e Cloudbase-init (Windows), que são incorporadas nas imagens oficiais.</p>
+<div class="admonition warning">
+<p class="admonition-title">Aviso</p>
+<p>Scripts de usuário são executados com privilégios de root (Linux) / Administrador (Windows).</p>
+</div>
+<h4 id="linux">Linux<a class="headerlink" href="#linux" title="Permanent link">#</a></h4>
+<p>A primeira linha de um script de usuário deve começar com <code>#!</code>.</p>
+<p><div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="ch">#!/bin/bash</span>
+</span></code></pre></div>
+...
+Para que um script de usuário seja executado com êxito, os arquivos de log na instância devem ser verificados. Você pode verificar os logs de saída impressos pela saída/erro padrão do script em <code>/var/log/cloud-init-output.log</code>.</p>
+<h4 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">#</a></h4>
+<p>As imagens do Windows suportam os formatos Batch e PowerShell para scripts de usuário. O formato é determinado por um indicador especificado na primeira linha.</p>
+<ul>
+<li>
+<p>Script Batch
+<div class="language-batch highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">rem cmd</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>...
+</span></code></pre></div></p>
+</li>
+<li>
+<p>Script PowerShell
+<div class="language-powershell highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c">#ps1_sysnative</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="p">...</span>
+</span></code></pre></div>
+Para usar tanto Batch quanto PowerShell no seu script, use o formato a seguir.</p>
+</li>
+<li>
+<p>Formato EC2
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>&lt;script&gt;
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>...
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>&lt;/script&gt;
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>&lt;powershell&gt;
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>...
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>&lt;/powershell&gt;
+</span></code></pre></div>
+Logs de scripts de usuário podem ser encontrados em </p>
+<blockquote>
+<p><em>C:\Program Files\Cloudbase Solutions\Cloudbase-Init\log\cloudbase-init.</em></p>
+</blockquote>
+</li>
+</ul>
+<p>Para obter mais detalhes sobre os scripts de usuário, consulte os guias do cloud-init ou Cloudbase-init.</p>
+<h3 id="recursos-adicionais-da-instancia">Recursos Adicionais da Instância<a class="headerlink" href="#recursos-adicionais-da-instancia" title="Permanent link">#</a></h3>
+<h4 id="alterar-o-status-da-instancia">Alterar o Status da Instância<a class="headerlink" href="#alterar-o-status-da-instancia" title="Permanent link">#</a></h4>
+<p>O status de uma instância pode ser alterado parando, encerrando (terminando), excluindo e iniciando-a.</p>
+<p>Para obter mais detalhes sobre os recursos do hypervisor e as taxas de parada, encerramento e exclusão de instâncias, consulte a tabela abaixo.</p>
+<table>
+<thead>
+<tr>
+<th>Classificação</th>
+<th>Parar Instância</th>
+<th>Encerrar Instância</th>
+<th>Excluir Instância</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Recursos do Hypervisor</strong></td>
+<td>O recurso permanece alocado</td>
+<td>O recurso é devolvido e realocado quando a instância é iniciada</td>
+<td>O recurso é removido</td>
+</tr>
+<tr>
+<td><strong>Preço da instância</strong></td>
+<td>Preço da parada aplicado</td>
+<td>Gratuito</td>
+<td>Gratuito</td>
+</tr>
+<tr>
+<td><strong>Preço de outros recursos conectados</strong></td>
+<td>Cobrado</td>
+<td>Cobrado</td>
+<td>Cobrado</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Instâncias de GPU não podem ser encerradas e incorrerão em taxas normais (100%) quando paradas.</p>
+</div>
+<h4 id="criar-imagem">Criar Imagem<a class="headerlink" href="#criar-imagem" title="Permanent link">#</a></h4>
+<p>Crie uma imagem a partir do armazenamento em bloco raiz de uma instância. É recomendável parar as instâncias antes de criar uma imagem para garantir a integridade dos dados.</p>
+<p>Embora seja possível criar uma imagem a partir de uma instância que não tenha espaço livre disponível em seu armazenamento em bloco raiz, essas imagens são inutilizáveis por outras instâncias porque não podem ser inicializadas corretamente. Antes de criar uma imagem, certifique-se de que sua instância tenha pelo menos 100 KB de espaço livre.</p>
+<p>As imagens criadas são registradas como imagens privadas em Computação &gt; Imagem. Você pode usar a imagem registrada para criar uma instância com um armazenamento em bloco idêntico ao da instância original.</p>
+<div class="admonition warning">
+<p class="admonition-title">Aviso</p>
+<p>O tamanho da imagem criada pode ser maior do que o uso real do armazenamento em bloco raiz.</p>
+</div>
+<h4 id="associardesassociar-ip-flutuante">Associar/Desassociar IP Flutuante<a class="headerlink" href="#associardesassociar-ip-flutuante" title="Permanent link">#</a></h4>
+<p>O IP flutuante pode ser associado ou desassociado de uma instância, independentemente do status da instância. Se você não tiver nenhum IP flutuante disponível ou se o IP flutuante que deseja não estiver disponível, poderá criar um clicando em Criar. Como alternativa, o IP flutuante também pode ser criado em Rede &gt; VPC &gt; IP Flutuante.</p>
+<p>Para obter mais detalhes sobre IPs flutuantes, consulte a Visão Geral de VPC.</p>
+<h4 id="modificar-grupo-de-seguranca">Modificar Grupo de Segurança<a class="headerlink" href="#modificar-grupo-de-seguranca" title="Permanent link">#</a></h4>
+<p>Os grupos de segurança de uma instância podem ser modificados independentemente do status da instância. Os grupos de segurança modificados são aplicados imediatamente.</p>
+<p>Para obter mais detalhes sobre grupos de segurança, consulte Grupo de Segurança e a Visão Geral de VPC.</p>
+<h4 id="alterar-sub-rede-de-rede">Alterar Sub-rede de Rede<a class="headerlink" href="#alterar-sub-rede-de-rede" title="Permanent link">#</a></h4>
+<p>A sub-rede de rede de uma instância só pode ser alterada enquanto a instância estiver parada. Ao adicionar uma sub-rede, uma interface de rede que será conectada a essa sub-rede é criada automaticamente na sua instância. Se você adicionar várias sub-redes de uma só vez, a ordem das interfaces de rede recém-criadas na instância será definida aleatoriamente. A exclusão de uma sub-rede de uma instância exclui automaticamente a interface de rede que foi criada junto com a sub-rede.</p>
+<h4 id="modificar-flavor">Modificar Flavor<a class="headerlink" href="#modificar-flavor" title="Permanent link">#</a></h4>
+<p>Os flavors de instância podem ser alterados quando uma instância for parada. Se uma instância estiver em execução, clique em Parar Instância em Recursos Adicionais para parar a instância.</p>
+<p>Você só pode alterar uma instância para outro flavor que seja compatível com o seu flavor atual.</p>
+<ul>
+<li>Instâncias de flavor <code>m2</code>, <code>c2</code>, <code>r2</code>, <code>t2</code>, <code>x1</code> podem ser alteradas para flavors <code>m2</code>, <code>c2</code>, <code>r2</code>, <code>t2</code>, <code>x1</code>.</li>
+<li>Instâncias de flavor <code>m2</code>, <code>c2</code>, <code>r2</code>, <code>t2</code>, <code>x1</code> não podem ser alteradas para flavors <code>u2</code>.</li>
+<li>Instâncias de flavor <code>u2</code> não podem ser alteradas para outros flavors depois de criadas, nem mesmo para as do mesmo flavor <code>u2</code>.</li>
+</ul>
+<p>Ao modificar flavors, as tarefas de redimensionamento e confirmação de redimensionamento da instância continuam. Quando todas as tarefas são concluídas, a VM muda seu status para Shutoff (Desligada). Você pode iniciar a instância clicando em Iniciar Instância em Recursos Adicionais.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>O tamanho do armazenamento em bloco raiz da instância não pode ser modificado. Se uma instância exigir espaço de armazenamento em bloco adicional, anexe um armazenamento em bloco. Para obter detalhes sobre como anexar o armazenamento em bloco, consulte a Visão Geral de Armazenamento em Bloco.</p>
+</div>
+<p>As instâncias serão cobradas usando o novo flavor a partir do momento em que a modificação for concluída.</p>
+<h4 id="alterar-detalhes-do-so-da-instancia">Alterar Detalhes do SO da Instância<a class="headerlink" href="#alterar-detalhes-do-so-da-instancia" title="Permanent link">#</a></h4>
+<p>Você pode alterar as informações do SO da instância, independentemente do estado da instância. </p>
+<p>Na página Computação &gt; Instância, clique na instância cujas informações do SO você deseja alterar. Na guia Informações Básicas da tela de detalhes dessa instância, clique em SO &gt; Modificar.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Você não pode alterar o tipo de SO.</p>
+</div>
+<h4 id="alterar-a-descricao-da-instancia">Alterar a Descrição da Instância<a class="headerlink" href="#alterar-a-descricao-da-instancia" title="Permanent link">#</a></h4>
+<p>Você pode alterar a descrição da instância independentemente do estado da instância. </p>
+<p>Na página Computação &gt; Instância, clique na instância cujas informações deseja alterar. Na guia Informações Básicas da tela de detalhes dessa instância, clique em Descrição &gt; Alterar.</p>
+<h4 id="alterar-o-par-de-chaves-da-instancia">Alterar o Par de Chaves da Instância<a class="headerlink" href="#alterar-o-par-de-chaves-da-instancia" title="Permanent link">#</a></h4>
+<p>Você só poderá alterar o par de chaves da instância se a instância estiver ativa.</p>
+<p>Na página Computação &gt; Instância, clique na instância cujas informações do par de chaves você deseja alterar. Na guia Informações Básicas da tela de detalhes dessa instância, clique em Par de Chaves &gt; Alterar.</p>
+<p>Altere o par de chaves da conta padrão da instância para o par de chaves selecionado. A conta padrão da instância pode ser encontrada na guia Informações de Conexão da tela inferior de detalhes da instância.</p>
+<div class="admonition warning">
+<p class="admonition-title">Aviso</p>
+<p>A alteração de um par de chaves de instância exclui todas as informações de chave pública na instância, exceto o par de chaves selecionado.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Apenas membros do projeto com permissões ADMIN para a infraestrutura básica podem alterar o par de chaves da instância, o qual não pode ser alterado se for uma instância de SO Windows.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Se a versão da imagem usada para criar a instância for baixa, o recurso para alterar os pares de chaves pode não estar disponível.</p>
+</div>
+<h4 id="gerenciar-politicas-de-posicionamento">Gerenciar Políticas de Posicionamento<a class="headerlink" href="#gerenciar-politicas-de-posicionamento" title="Permanent link">#</a></h4>
+<p>Você pode criar e excluir políticas de posicionamento e exibir uma lista de instâncias atribuídas a políticas de posicionamento.</p>
+<p>Somente o tipo de política de posicionamento antiafinidade (anti-affinity) para posicionamento distribuído é fornecido.</p>
+<p>Você pode excluir uma política de posicionamento mesmo se houver instâncias atribuídas a ela, caso em que as instâncias não serão excluídas.</p>
+<h3 id="pares-de-chaves">Pares de Chaves<a class="headerlink" href="#pares-de-chaves" title="Permanent link">#</a></h3>
+<h4 id="importar-pares-de-chaves-windows">Importar Pares de Chaves (Windows)<a class="headerlink" href="#importar-pares-de-chaves-windows" title="Permanent link">#</a></h4>
+<p>Você pode usar o puttygen, que é instalado quando você instala o cliente SSH PuTTY, para criar um par de chaves e registrá-lo na SovereignSecure Cloud.</p>
+<p>Certifique-se de ter o PuTTY instalado.</p>
+<p>Execute o puttygen.</p>
+<p><em>[Imagem: PuTTYgen]</em></p>
+<p>Selecione RSA (ou SSH-2 RSA em versões mais antigas do puttygen) em Parameters. Clique em Generate em Actions. Mova continuamente o mouse no espaço vazio para gerar a chave.</p>
+<p>Após a geração da chave, o conteúdo do arquivo de chave pública ficará visível conforme mostrado abaixo. Cole o conteúdo da chave pública no campo Chave Pública em Obter Par de Chaves para registrar o par de chaves.</p>
+<p><em>[Imagem: Chave gerada pelo PuTTYgen]</em></p>
+<p>Clique em Save private key em Actions para salvar a chave privada. Se você salvar a chave privada deixando o campo Key passphrase em branco, aparecerá a mensagem "Are you sure you want to save this key without a passphrase to protect it?" (Tem certeza de que deseja salvar esta chave sem uma frase secreta para protegê-la?). Para usar sua chave privada convertida com mais segurança, defina uma frase secreta (passphrase) antes de salvar.</p>
+<div class="admonition warning">
+<p class="admonition-title">Aviso</p>
+<p>Se você deseja fazer login automaticamente na sua instância, não deve definir uma frase secreta para a chave. Quando uma frase secreta for usada, você deve inserir manualmente a frase secreta da chave privada durante o login.</p>
+</div>
+<p>O par de chaves registrado pode ser usado para criar instâncias, e a chave privada do par de chaves deve ser usada ao acessar as instâncias. Para mais detalhes sobre como acessar instâncias, consulte Visão Geral de Instâncias.</p>
+<p>Assim como com os pares de chaves criados na SovereignSecure Cloud, os pares de chaves importados também precisam ser gerenciados com cautela, pois chaves privadas expostas podem ser abusadas por qualquer pessoa para acessar instâncias.</p>
+<h4 id="importar-pares-de-chaves-mac-e-linux">Importar Pares de Chaves (Mac e Linux)<a class="headerlink" href="#importar-pares-de-chaves-mac-e-linux" title="Permanent link">#</a></h4>
+<p>Pares de chaves criados usando ssh-keygen no Mac ou Linux podem ser registrados na SovereignSecure Cloud. Use o seguinte comando para criar um par de chaves.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>$ ssh-keygen -t rsa -f minha_chave.key
+</span></code></pre></div>
+<p>Você pode optar por definir uma frase secreta para o par de chaves, embora isso não seja obrigatório. Se desejar usar seu par de chaves com mais segurança, recomendamos definir uma frase secreta. O arquivo com <code>.pub</code> anexado ao nome do par de chaves especificado contém a chave pública.</p>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>$ cat minha_chave.key.pub
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnnUAe36txQqk8J7VzbNuYKVQQ3gbNoClndHMX49OD+1Rw5xrDFLUKQqxbBDtlNMoA9tKBZNrQBpKr1kFEtvMIj1HPkH9ocb4MbuoVVjpkIhixbKMMJPDQ4JQJxaifsjR59YsZyDAp0aXZp+o+OB97P3S4AKPY2kQR0JdSr30+6Av6smf+3mZceAE4abzklfbyWT5slP1im/wfYEPO3QBEDl/0JbmTjKWPYI6QnbwnPRHS63SJ+Kd2QeYQYJCadv7X4mXnw81qEIWq/dx1SQkGDTNgR7lnN2ApFlU5EZcow69z6tiCr0hlyigwjGooMg3wTZvcSlYcVeTzZ755RArd ...
+</span></code></pre></div>
+Cole o conteúdo da chave pública no campo Chave Pública em Obter Par de Chaves para registrar o par de chaves.</p>
+<p>O par de chaves registrado pode ser usado para criar instâncias, e a chave privada do par de chaves deve ser usada ao acessar instâncias. Para mais detalhes sobre como acessar instâncias, consulte Como Acessar Instâncias.</p>
+<p>Assim como com os pares de chaves criados na SovereignSecure Cloud, os pares de chaves importados também precisam ser gerenciados com cautela, pois chaves privadas expostas podem ser abusadas por qualquer pessoa para acessar as instâncias.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+
+<!-- Content footer -->
+<footer class="mdx-content__footer md-typeset">
+
+    <hr />
+    <span class="twemoji">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v151.5L7.5 426.3C2.6 435 0 444.7 0 454.7 0 486.4 25.6 512 57.3 512h333.4c31.6 0 57.3-25.6 57.3-57.3 0-10-2.6-19.8-7.5-28.4L320 215.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0zm-96 215.5V64h64v151.5c0 11.1 2.9 22.1 8.4 31.8L306 320H142l41.6-72.7c5.5-9.7 8.4-20.6 8.4-31.8"/></svg>
+    </span>
+    <hr />
+
+</footer>
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+    
+    <div class="md-copyright__highlight">
+        SovereignSecure Cloud
+    </div>
+    
+    
+    Made with
+    <span class="twemoji heart">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#f95858" d="M14 20.408c-.492.308-.903.546-1.192.709c-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0a16.709 16.709 0 0 1-.465-.252a31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513C1 5.052 3.829 2.5 6.736 2.5C9.03 2.5 10.881 3.726 12 5.605C13.12 3.726 14.97 2.5 17.264 2.5C20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408"/></svg>
+    </span> by
+    <a href="https://github.com/sovereignsecurecloud/sovereignsecurecloud.github.io" target="_blank" rel="noopener">
+        SovereignSecure Cloud team
+    </a>
+    
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "navigation.instant", "navigation.sections", "navigation.path", "navigation.prune", "search.suggest", "content.code.annotate", "content.code.copy", "toc.follow", "content.tooltips", "navigation.indexes", "content.footnote.tooltips"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
