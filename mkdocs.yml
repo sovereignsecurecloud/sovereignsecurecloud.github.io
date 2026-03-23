@@ -10,30 +10,29 @@ nav:
       - Overview: cmp/index.md
       - Service Catalogs: cmp/catalog.md
       - Chargeback & Reporting: cmp/reporting.md
-  - Core Services:
-      - Compute:
-          - Overview: compute/index.md
-          - OpenStack IaaS: compute/openstack.md
-          - Instances: compute/instance.md
-          - Instance User Guide: compute/instance_user.md
-          - GPU Instances: compute/gpu_instance.md
-          - Bare Metal (BMaaS): compute/bmaas.md
-          - Images: compute/image.md
-          - Key Pairs: compute/keypair.md
-      - Storage:
-          - Overview: storage/index.md
-          - Ceph SDS: storage/ceph.md
-          - Block Storage: storage/block_storage.md
-          - Object Storage: storage/object_storage.md
-          - Shared File Storage: storage/file_storage.md
-      - Networking:
-          - Overview: network/index.md
-          - SDN (SONiC & OVN): network/sdn.md
-          - VPC & Subnets: network/vpc.md
-          - Routers & Floating IPs: network/routers_fips.md
-          - Security Groups: network/security_group.md
-          - Load Balancers: network/load_balancer.md
-          - VPN & Direct Connect: network/vpn_direct_connect.md
+  - Compute:
+      - Overview: compute/index.md
+      - OpenStack IaaS: compute/openstack.md
+      - Instances: compute/instance.md
+      - Instance User Guide: compute/instance_user.md
+      - GPU Instances: compute/gpu_instance.md
+      - Bare Metal (BMaaS): compute/bmaas.md
+      - Images: compute/image.md
+      - Key Pairs: compute/keypair.md
+  - Storage:
+      - Overview: storage/index.md
+      - Ceph SDS: storage/ceph.md
+      - Block Storage: storage/block_storage.md
+      - Object Storage: storage/object_storage.md
+      - Shared File Storage: storage/file_storage.md
+  - Networking:
+      - Overview: network/index.md
+      - SDN (SONiC & OVN): network/sdn.md
+      - VPC & Subnets: network/vpc.md
+      - Routers & Floating IPs: network/routers_fips.md
+      - Security Groups: network/security_group.md
+      - Load Balancers: network/load_balancer.md
+      - VPN & Direct Connect: network/vpn_direct_connect.md
   - Containers & Kubernetes:
       - Overview: kubernetes/index.md
       - K3s Kubernetes: kubernetes/k3s.md
@@ -45,7 +44,7 @@ nav:
       - Users & Projects: identity/projects.md
       - Roles & Policies: identity/roles.md
       - Teleport PAM: identity/teleport.md
-      - Wazuh SIEM: identity/wazuh.md
+      - SIEM: identity/siem.md
       - Key Management (KMS): identity/kms.md
   - Observability & Monitoring:
       - Overview: observability/index.md
@@ -54,9 +53,9 @@ nav:
       - API Overview: api/index.md
       - CLI Configuration: api/login.md
       - Infrastructure as Code (IaC): api/iac.md
-  - Support & SLAs:
-      - Getting Help: support/index.md
-      - Service Level Agreements: support/sla.md
+  # - Support & SLAs:
+  #     - Getting Help: support/index.md
+  #     - Service Level Agreements: support/sla.md
           
 
 
@@ -65,13 +64,25 @@ site_name: SovereignSecure Cloud
 site_author: kkramineni
 site_description: User Description for SovereignSecure Cloud
 
-repo_name: sovereignsecurecloud
-repo_url: https://github.com/sovereignsecurecloud/sovereignsecurecloud.github.io
+# repo_name: sovereignsecurecloud
+# repo_url: https://github.com/sovereignsecurecloud/sovereignsecurecloud.github.io
 site_url: "https://sovereignsecurecloud.com/"
 copyright: SovereignSecure Cloud
 
 extra_css:
   - custom/extra.css
+
+extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Portuguese (Brasilian)
+      link: /pt-BR/
+      lang: pt-BR
+    - name: German
+      link: /de/
+      lang: de
 
 theme:
   name: material
@@ -94,8 +105,12 @@ theme:
 
   features:
     - navigation.top
-    # - navigation.instant
-    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+    # - navigation.tabs.sticky
+    # - navigation.tabs
+    - navigation.path
+    - navigation.prune
     - search.suggest
     - content.code.annotate
     - content.code.copy
@@ -103,7 +118,7 @@ theme:
     - content.tooltips
     - navigation.indexes
     - content.footnote.tooltips
-    - announce.dismiss
+    # - announce.dismiss
 
   language: en
   palette:
@@ -182,3 +197,123 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: pt-BR
+          name: Portuguese (Brasilian)
+          build: true 
+          nav_translations:
+                Welcome: Bem-vindo
+                Getting Started: Primeiros Passos
+                Quick Start Guide: Guia de Início Rápido
+                "Access & Client Setup": Acesso e Configuração de Cliente
+                "Compliance & Sovereignty": Conformidade e Soberania
+                "Cloud Management (CMP)": Gerenciamento de Nuvem (CMP)
+                Overview: Visão Geral
+                Service Catalogs: Catálogos de Serviços
+                "Chargeback & Reporting": Cobrança e Relatórios
+                Core Services: Serviços Principais
+                Compute: Computação
+                OpenStack IaaS: OpenStack IaaS
+                Instances: Instâncias
+                Instance User Guide: Guia do Usuário da Instância
+                GPU Instances: Instâncias de GPU
+                "Bare Metal (BMaaS)": Bare Metal (BMaaS)
+                Images: Imagens
+                Key Pairs: Pares de Chaves
+                Storage: Armazenamento
+                Ceph SDS: Ceph SDS
+                Block Storage: Armazenamento em Bloco
+                Object Storage: Armazenamento de Objetos
+                Shared File Storage: Armazenamento de Arquivos Compartilhados
+                Networking: Redes
+                "SDN (SONiC & OVN)": SDN (SONiC e OVN)
+                "VPC & Subnets": VPC e Sub-redes
+                "Routers & Floating IPs": Roteadores e IPs Flutuantes
+                Security Groups: Grupos de Segurança
+                Load Balancers: Balanceadores de Carga
+                "VPN & Direct Connect": VPN e Conexão Direta
+                "Containers & Kubernetes": Contêineres e Kubernetes
+                K3s Kubernetes: K3s Kubernetes
+                "KaaS (Cluster API)": KaaS (Cluster API)
+                Deploying Clusters: Implantando Clusters
+                "Identity & Security": Identidade e Segurança
+                IAM Overview: Visão Geral de IAM
+                Keycloak IAM: Keycloak IAM
+                "Users & Projects": Usuários e Projetos
+                "Roles & Policies": Funções e Políticas
+                Teleport PAM: Teleport PAM
+                SIEM: SIEM
+                "Key Management (KMS)": Gerenciamento de Chaves (KMS)
+                "Observability & Monitoring": Observabilidade e Monitoramento
+                "Prometheus & Grafana": Prometheus e Grafana
+                "API & Automation": API e Automação
+                API Overview: Visão Geral da API
+                CLI Configuration: Configuração da CLI
+                "Infrastructure as Code (IaC)": Infraestrutura como Código (IaC)
+                "Support & SLAs": Suporte e SLAs
+                Getting Help: Obtendo Ajuda
+                Service Level Agreements: Acordos de Nível de Serviço
+        - locale: de
+          name: German
+          build: true
+          nav_translations:
+                Welcome: Willkommen
+                Getting Started: Erste Schritte
+                Quick Start Guide: Schnellstartanleitung
+                "Access & Client Setup": Zugriff & Client-Setup
+                "Compliance & Sovereignty": Compliance & Souveränität
+                "Cloud Management (CMP)": Cloud-Management (CMP)
+                Overview: Übersicht
+                Service Catalogs: Servicekataloge
+                "Chargeback & Reporting": Chargeback & Reporting
+                Core Services: Kerndienste
+                Compute: Compute
+                OpenStack IaaS: OpenStack IaaS
+                Instances: Instanzen
+                Instance User Guide: Benutzerhandbuch für Instanzen
+                GPU Instances: GPU-Instanzen
+                "Bare Metal (BMaaS)": Bare Metal (BMaaS)
+                Images: Images
+                Key Pairs: Schlüsselpaare
+                Storage: Speicher
+                Ceph SDS: Ceph SDS
+                Block Storage: Blockspeicher
+                Object Storage: Objektspeicher
+                Shared File Storage: Freigegebener Dateispeicher
+                Networking: Netzwerk
+                "SDN (SONiC & OVN)": SDN (SONiC & OVN)
+                "VPC & Subnets": VPC & Subnetze
+                "Routers & Floating IPs": Router & Floating IPs
+                Security Groups: Sicherheitsgruppen
+                Load Balancers: Load Balancer
+                "VPN & Direct Connect": VPN & Direct Connect
+                "Containers & Kubernetes": Container & Kubernetes
+                K3s Kubernetes: K3s Kubernetes
+                "KaaS (Cluster API)": KaaS (Cluster API)
+                Deploying Clusters: Cluster bereitstellen
+                "Identity & Security": Identität & Sicherheit
+                IAM Overview: IAM Übersicht
+                Keycloak IAM: Keycloak IAM
+                "Users & Projects": Benutzer & Projekte
+                "Roles & Policies": Rollen & Richtlinien
+                Teleport PAM: Teleport PAM
+                SIEM: SIEM
+                "Key Management (KMS)": Schlüsselverwaltung (KMS)
+                "Observability & Monitoring": Observability & Monitoring
+                "Prometheus & Grafana": Prometheus & Grafana
+                "API & Automation": API & Automatisierung
+                API Overview: API-Übersicht
+                CLI Configuration: CLI-Konfiguration
+                "Infrastructure as Code (IaC)": Infrastructure as Code (IaC)
+                "Support & SLAs": Support & SLAs
+                Getting Help: Hilfe erhalten
+                Service Level Agreements: Service Level Agreements
