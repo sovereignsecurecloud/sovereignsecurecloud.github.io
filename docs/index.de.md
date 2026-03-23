@@ -1,4 +1,4 @@
-# Willkommen bei der SovereignSecure Cloud &trade; Dokumentation
+# Willkommen bei der SovereignSecure Cloud Dokumentation
 
 Willkommen bei der SovereignSecure Cloud, Ihrer vertrauenswürdigen Plattform für sichere, konforme und hochleistungsfähige Cloud-Dienste. Aufgebaut auf einem OpenStack-Fundament und erweitert durch ManageIQ für umfassendes Cloud-Management, befähigen wir Organisationen, die volle Kontrolle über ihre Daten und Abläufe in einer souveränen digitalen Umgebung zu behalten.
 
@@ -17,7 +17,7 @@ Verwenden Sie die Navigation auf der linken Seite, um unsere umfassenden Leitfä
 
 ```mermaid
 graph TD
-    subgraph SovereignCloud[<b>SovereignSecure Cloud &trade;</b>]
+    subgraph SovereignCloud[<b>SovereignSecure Cloud </b>]
         direction TB
         
         subgraph DataControl[<b>Datenkontrolle & Souveränität</b>]
