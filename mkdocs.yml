@@ -1,36 +1,74 @@
 
 
 nav:
-  - Home: index.md
-  - Quick Start:
-      - Quick Start: quickstart/index.md
-      - Client: quickstart/login.md
-  - API:
-      - Overview: api/index.md
-      - Client: api/login.md
-  - User Guide:
+  - Welcome: index.md
+  - Getting Started:
+      - Quick Start Guide: quickstart/index.md
+      - Access & Client Setup: quickstart/login.md
+      - Compliance & Sovereignty: quickstart/compliance.md
+  - Cloud Management (CMP):
       - Overview: cmp/index.md
-  - Kubernetes:
+      - Service Catalogs: cmp/catalog.md
+      - Chargeback & Reporting: cmp/reporting.md
+  - Core Services:
+      - Compute:
+          - Overview: compute/index.md
+          - OpenStack IaaS: compute/openstack.md
+          - Instances: compute/instance.md
+          - Instance User Guide: compute/instance_user.md
+          - GPU Instances: compute/gpu_instance.md
+          - Bare Metal (BMaaS): compute/bmaas.md
+          - Images: compute/image.md
+          - Key Pairs: compute/keypair.md
+      - Storage:
+          - Overview: storage/index.md
+          - Ceph SDS: storage/ceph.md
+          - Block Storage: storage/block_storage.md
+          - Object Storage: storage/object_storage.md
+          - Shared File Storage: storage/file_storage.md
+      - Networking:
+          - Overview: network/index.md
+          - SDN (SONiC & OVN): network/sdn.md
+          - VPC & Subnets: network/vpc.md
+          - Routers & Floating IPs: network/routers_fips.md
+          - Security Groups: network/security_group.md
+          - Load Balancers: network/load_balancer.md
+          - VPN & Direct Connect: network/vpn_direct_connect.md
+  - Containers & Kubernetes:
       - Overview: kubernetes/index.md
-  - Compute:
-      - Overview: compute/index.md
-      - Instance: 
-          - Overview: compute/image.md
-          - User Guide: compute/instance_user.md
-      - GPU Instance: compute/gpu_instance.md
-      - Images: compute/image.md
+      - K3s Kubernetes: kubernetes/k3s.md
+      - KaaS (Cluster API): kubernetes/kaas.md
+      - Deploying Clusters: kubernetes/clusters.md
+  - Identity & Security:
+      - IAM Overview: identity/index.md
+      - Keycloak IAM: identity/keycloak.md
+      - Users & Projects: identity/projects.md
+      - Roles & Policies: identity/roles.md
+      - Teleport PAM: identity/teleport.md
+      - Wazuh SIEM: identity/wazuh.md
+      - Key Management (KMS): identity/kms.md
+  - Observability & Monitoring:
+      - Overview: observability/index.md
+      - Prometheus & Grafana: observability/prometheus_grafana.md
+  - API & Automation:
+      - API Overview: api/index.md
+      - CLI Configuration: api/login.md
+      - Infrastructure as Code (IaC): api/iac.md
+  - Support & SLAs:
+      - Getting Help: support/index.md
+      - Service Level Agreements: support/sla.md
           
 
 
 # Site Setting
 site_name: SovereignSecure Cloud
 site_author: kkramineni
-site_description: test
+site_description: User Description for SovereignSecure Cloud
 
 repo_name: sovereignsecurecloud
 repo_url: https://github.com/sovereignsecurecloud/sovereignsecurecloud.github.io
 site_url: "https://sovereignsecurecloud.com/"
-copyright: Copyright &copy; SovereignSecure Cloud
+copyright: SovereignSecure Cloud
 
 extra_css:
   - custom/extra.css

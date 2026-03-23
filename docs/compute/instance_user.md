@@ -1,73 +1,77 @@
-#### Create Instances
+---
+sidebar_label: User Guide
+sidebar_position: 2
+---
+
+# Instance User Guide
+
+## Create Instances
 You can create instances either by using the settings below or by using Terraform/OpenTofu. To create instances using Terraform/OpenTofu, select Create Instance page. 
 
-#### OS Settings
+### OS Settings
 Determine how the root block storage is created that will be used when an instance is created.
 
 * Select either Create New and Set up or Use Existing Resource.
 * If you select Create New and Set up, create root block storage using an image.
 * If you select Use Existing Resource, use a previously created block storage or snapshot.
----
-#### Image
+
+### Image
 Select the image that contains the operating system you need. You can choose between public images provided by SovereignSecure Cloud, images you've previously created, or shared images.
 
 The available instance flavors vary depending on the image you choose, so we recommended you choose an image first when creating an instance.
-
 
 | OS      | OS Disk Size         |  Memory      |
 | ----------- | --------------------|-----------|
 | Linux       | 10GB      | 4GB     |
 | Windows       | 40GB     | 4GB     |
 
-
-
-#### Root Block Storage
+### Root Block Storage
 Set up root block storage according to the OS settings.
 
 * If you select __Create New and Set up__, create the root block store by specifying the __block storage type__ and __block storage size__.
 * If you select Use __Existing Resource__, specify the __original resource__ to use as root block storage.
-#### Original Resource
+
+### Original Resource
 You can select either a previously created __block storage__ or __snapshot__.
 
 When you select __block storage__, use the previously created block storage as the root block storage.
 When you select __snapshot__, the root block storage is created using a previously created snapshot.
-#### Block Storage Size
+
+### Block Storage Size
 Specify the root block storage size of an instance.
 
 The block storage size must be at least the minimum size required by the image.
 The root block storage size varies depending on instance flavor.
-
-Flavors	Supported Block Storage Size
 
 | flavors      | Supported Block Storage Size         |
 | ----------- | --------------------|
 | g       | 10GB      |
 | m       | 40GB     |
 
-
 !!! note
     Because you are charged by block storage size, it is inefficient to make the default block storage size large without consideration. We recommend that you add additional block storage as needed.
-    If you select block storage for Use Existing Resource in the OS settings, you can't change the block storage size.
-    If you select snapshot for Use Existing Resource in the OS settings, block storage size must be set equal to or larger than the original block storage size.
+    * If you select block storage for Use Existing Resource in the OS settings, you can't change the block storage size.
+    * If you select snapshot for Use Existing Resource in the OS settings, block storage size must be set equal to or larger than the original block storage size.
 
-Block Storage Type
+### Block Storage Type
 Determines the default block storage type of an instance.
 
 Choose either HDD or SSD. The choice of block storage type affects pricing and performance.
 You cannot change the block storage type once the instance is created.
+
 !!! note
     If you select Use Existing Resource in the OS settings, you can't change the block storage type.
 
-Availability Zone
+### Availability Zone
 If an availability zone is not specified, a random zone is selected. An instance can use a block storage only if they both exist in the same availability zone. If the block storage you wish to use exists in a particular availability zone, then select that zone.
 
 !!! note
-    Resources in a VPC can be used in any availability zone.
-    If you select Use Existing Resource in the OS settings, you can't change the availability zone.
+    * Resources in a VPC can be used in any availability zone.
+    * If you select Use Existing Resource in the OS settings, you can't change the availability zone.
 
 For more details on availability zones, see Availability Zone in Instance Overview.
 
-Flavor
+### Flavor
 You can select various flavors depending on virtual hardware performance specifications. However, the choice of some flavors may be limited depending on the virtual hardware performance that your image requires. For more details, see Instance Overview.
 
 !!! note 
@@ -78,7 +82,7 @@ Instance flavors can be changed in the SovereignSecure Cloud console even after 
 !!! warning
      An instance's root block storage cannot be changed by changing instance flavors.
 
-#### Number of Instances
+### Number of Instances
 You can specify the number of instances you want to create when creating multiple instances with the same image, availability zone, flavor, block storage size, key pair, and network settings. The instance names will be the name you specified, with numbers such as -1 and -2 appended to the end. For example, creating two instances named my-instance will result in my-instance-1 and my-instance-2. The maximum number of instances you can create at once is 10.
 
 When you create multiple instances without specifying an availability zone, each instance will be created in a randomly selected availability zone. For example, if two instances are created without specifying an availability zone, they may be created in the same zone or they may be created in different zones. If all instances need to be created in the same availability zone, select a particular zone.
@@ -86,58 +90,59 @@ When you create multiple instances without specifying an availability zone, each
 !!! note 
     If you select block storage for Use Existing Resource in the OS settings or Use Existing Network Interface in the network settings, the number of instances is limited to 1.
 
-#### Key Pair
+### Key Pair
 Use an existing key pair or create a new key pair. To register an existing key pair, see Import Key Pair (Windows) for Windows users, and Import Key Pair (Mac and Linux) for Mac and Linux users.
 
 !!! note 
     Key Pair is a resource assigned to the user account, so it's not deleted when you delete a project.
 
-#### Network
+### Network
 Select a subnet defined in your VPC to connect to an instance. For each selected subnet, a network interface is created in the instance to connect to that subnet. You can change the order of selected subnets to change network interfaces, in which case the first network interface (eth0) will be set as the default gateway.
 
 For more details on creating and managing networks, refer to VPC Overview.
 
-#### Floating IP
+### Floating IP
 Select whether you will use a floating IP after instance creation. If you enable this option, a new floating IP is created and connected to the first network interface. Note that the first network interface must be connected to a subnet where an internet gateway is configured.
 
 Floating IP can be managed from Instance > Management, or Instance > Floating IP. For more details on floating IP, see VPC Console Guide.
 
-#### Security Group
+### Security Group
 Select security groups that the instance will be included in. One instance can be included in multiple security groups, in which case,
 
-The instance can communicate over the network with all other instances included in each security group. When you are dealing with an instance with sensitive data that is not meant to be accessible by other instances, you must carefully select security groups.
-The rules of each security group are aggregated and applied to the instance's external network communication.
+* The instance can communicate over the network with all other instances included in each security group. When you are dealing with an instance with sensitive data that is not meant to be accessible by other instances, you must carefully select security groups.
+* The rules of each security group are aggregated and applied to the instance's external network communication.
+
 For more details on security groups, see VPC Console Guide.
 
-#### Additional Block Storage
+### Additional Block Storage
 Select whether you will attach an additional block storage after instance creation. If you enable this option, a new block storage separate from the root block storage is created and attached to the instance. As with the root block storage, you can specify the name, storage type, and size of the additional block storage you create.
 
 By using the root block storage only for the OS and storing your frequently used applications and data on the additional block storage, you can easily migrate or copy your applications and data using the block storage attach/detach and snapshot features. In addition, when an instance failure occurs, you can easily recover your services by simply detaching the additional block storage and attaching it to another instance.
 
 Block storage can also be managed from Instance > Block Storage. For more details on block storage, see Block Storage Guide.
 
-#### Placement Policy
+### Placement Policy
 You can use placement policies to place instances on different hypervisors. When you set a placement policy at instance creation time, instances assigned to the same placement policy are created on different hypervisors.
 
 !!! warning
     Instance creation may fail in situations where distributed deployment is not possible.
 
-#### User Script
+### User Script
 You can specify a script to be executed after instance creation. The user script is executed following the instance's initial boot and after the initialization process including network configuration has completed. User scripts in SovereignSecure Cloud are executed by automated tools such as cloud-init (Linux) and Cloudbase-init (Windows), which are embedded in the official images.
 
 !!! warning
     User scripts are executed with root (Linux)/Administrator (Windows) privileges.
 
-Linux
+#### Linux
 The first line of a user script must begin with #!.
 
-```
+```bash
 #!/bin/bash
 ```
 ...
 For a user script to run successfully, log files in the instance must be checked. You can check output logs printed by standard output/error from the script in /var/log/cloud-init-output.log.
 
-Windows
+#### Windows
 Windows images support both Batch and PowerShell formats for user scripts. The format is determined by an indicator specified in the first line.
 
 * Batch Script
@@ -173,10 +178,11 @@ An instance’s status can be changed by stopping, terminating, deleting, and st
 
 For more details on hypervisor resources and fees for stopping, terminating, and deleting instances, see the table below.
 
-Classification	Stop instance	Terminate Instance	Delete Instance
-Hypervisor resource	Resource remain allocated	Resource returned and reallocated when an instance is started	Resource removed
-Pricing for instance	Price for stopping applied	Free	Free
-Pricing for other connected resources	Charged	Charged	Charged
+| Classification | Stop instance | Terminate Instance | Delete Instance |
+| -------------- | ------------- | ------------------ | --------------- |
+| **Hypervisor resource** | Resource remain allocated | Resource returned and reallocated when an instance is started | Resource removed |
+| **Pricing for instance** | Price for stopping applied | Free | Free |
+| **Pricing for other connected resources** | Charged | Charged | Charged |
 
 !!! note 
     GPU Instances cannot be terminated and will incur normal (100%) rates when stopped.
@@ -209,9 +215,10 @@ Instance flavors can be changed once an instance has been stopped. If an instanc
 
 You can only change an instance to another flavor that is compatible with its current flavor.
 
-m2, c2, r2, t2, x1 flavor instances can be changed to m2, c2, r2, t2, x1 flavors.
-m2, c2, r2, t2, x1 flavor instances cannot be changed to u2 flavors.
-u2 flavor instances cannot be changed to other flavors once they have been created, not even to those of the same u2 flavor.
+* `m2`, `c2`, `r2`, `t2`, `x1` flavor instances can be changed to `m2`, `c2`, `r2`, `t2`, `x1` flavors.
+* `m2`, `c2`, `r2`, `t2`, `x1` flavor instances cannot be changed to `u2` flavors.
+* `u2` flavor instances cannot be changed to other flavors once they have been created, not even to those of the same `u2` flavor.
+
 When you modify flavors, instance resize and resize confirmation tasks proceed. When all tasks are completed, the VM changes its status to Shutoff. You can start the instance by clicking Start Instance in Additional Features.
 
 !!! note  
@@ -255,21 +262,21 @@ Only the anti-affinity placement policy type for distributed placement is provid
 
 You can delete a placement policy even if instances are assigned to it, in which case the instances are not deleted.
 
-#### Key Pairs
-Import Key Pairs (Windows)
+### Key Pairs
+#### Import Key Pairs (Windows)
 You can use puttygen, which is installed when you install the PuTTY SSH client, to create a key pair and register it with SovereignSecure Cloud.
 
 Make sure you have PuTTY installed.
 
 Run puttygen.
 
-Image1
+*[Image: PuTTYgen]*
 
 Select RSA (or SSH-2 RSA in older versions of puttygen) under Parameters. Click Generate under Actions. Continuously move your mouse in the empty space in order to generate the key.
 
 After the key is generated, the public key file contents will be visible as shown below. Paste the contents of the public key into the Public Key field in Get Key Pair in order to register the key pair.
 
-Image1
+*[Image: PuTTYgen generated key]*
 
 Click Save private key under Actions to save the private key. If you save the private key leaving the Key passphrase field blank, the message "Are you sure you want to save this key without a passphrase to protect it?" will appear. In order to use your converted private key more securely, set a passphrase before saving.
 

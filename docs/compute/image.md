@@ -1,57 +1,43 @@
-!!! tip
+---
+sidebar_label: Images
+sidebar_position: 4
+---
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+# Images
 
-!!! warning
+In SovereignSecure Cloud, an **Image** is a virtual machine template containing a pre-configured operating system and potentially other software. Images are used as the base to provision new Compute Instances.
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+Our image service is powered by OpenStack Glance and is fully integrated into the Cloud Management Platform (CMP).
 
+## Image Types
 
-<div class="grid cards" markdown>
+You can choose from several types of images when deploying a new instance:
 
--   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+*   **Public Images:** Standard, secure, and fully patched OS images provided and maintained by SovereignSecure Cloud administrators. These typically include popular Linux distributions (Ubuntu, CentOS, RHEL) and Windows Server environments.
+*   **Private Images (Custom Images):** Images you create yourself. These are often created by taking a snapshot of an existing, pre-configured instance. Private images are only visible to users within your Project.
+*   **Shared Images:** Images that have been explicitly shared between different Projects or Organizations.
 
-    ---
+## Supported Image Formats
 
-    Install [`mkdocs-material`](#) with [`pip`](#) and get up
-    and running in minutes
+If you are uploading your own custom image, SovereignSecure Cloud supports several standard virtual machine disk formats. The most common and highly recommended format is **QCOW2**, as it provides dynamic sizing and snapshot support.
 
-    [:octicons-arrow-right-24: Getting started](#)
+Other supported formats include:
 
--   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+*   `qcow2` (QEMU copy-on-write)
+*   `raw` (Unstructured disk image)
+*   `iso` (Optical disk image)
 
-    ---
+!!! tip "Cloud-Init and Cloudbase-Init"
+    When bringing your own custom images, we strongly recommend installing **cloud-init** (for Linux) or **Cloudbase-Init** (for Windows) before capturing the image. This ensures your instances will properly receive SSH keys, network configurations, and User Scripts upon boot.
 
-    Focus on your content and generate a responsive and searchable static site
+## Creating a Custom Image
 
-    [:octicons-arrow-right-24: Reference](#)
+You can create a custom image from an existing running instance's root block storage to capture its exact state.
 
--   :material-format-font:{ .lg .middle } __Made to measure__
+1.  Navigate to **Compute > Instances** in the Cloud Console.
+2.  Select the instance you want to capture.
+3.  It is highly recommended to **Stop** the instance first to ensure data integrity.
+4.  Select **Create Image** from the Actions menu.
+5.  Provide a name and description for your new image.
 
-    ---
-
-    Change the colors, fonts, language, icons, logo and more with a few lines
-
-    [:octicons-arrow-right-24: Customization](#)
-
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
-
-</div>
-
-!!! info inline end "Lorem ipsum"
-
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
+Once completed, the new image will be available in your **Compute > Images** repository and can be used to launch identical clone instances.

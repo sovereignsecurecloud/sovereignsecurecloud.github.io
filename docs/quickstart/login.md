@@ -21,8 +21,7 @@ openstack --os-cloud openstack network list
 
 ## Migration from openrc to clouds.yaml
 
-If you have your `openrc` file  but you need this information in a `clouds.yaml` file,
-this can easily be converted.
+If you have an `openrc` file (often downloaded from the OpenStack Horizon dashboard) but prefer to use the more structured `clouds.yaml` format, you can easily convert it.
 
 ## With an editor
 
