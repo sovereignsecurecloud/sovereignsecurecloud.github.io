@@ -12,29 +12,31 @@
         <meta name="author" content="kkramineni">
       
       
-        <link rel="canonical" href="https://sovereignsecurecloud.com/">
+        <link rel="canonical" href="https://sovereignsecurecloud.com/api/login/">
       
       
+        <link rel="prev" href="../">
       
-        <link rel="next" href="quickstart/">
+      
+        <link rel="next" href="../iac/">
       
       
         
       
       
-      <link rel="icon" href="assets/logo.png">
+      <link rel="icon" href="../../assets/logo.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>SovereignSecure Cloud</title>
+        <title>CLI Configuration - SovereignSecure Cloud</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="custom/extra.css">
+      <link rel="stylesheet" href="../../custom/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -63,6 +65,8 @@
     
 
 <!-- Determine title -->
+
+
 
 
 
@@ -90,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-sovereignsecure-cloud-tm-documentation" class="md-skip">
+        <a href="#api-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -122,9 +126,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="SovereignSecure Cloud" class="md-header__button md-logo" aria-label="SovereignSecure Cloud" data-md-component="logo">
+    <a href="../.." title="SovereignSecure Cloud" class="md-header__button md-logo" aria-label="SovereignSecure Cloud" data-md-component="logo">
       
-  <img src="assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -141,7 +145,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome
+              CLI Configuration
             
           </span>
         </div>
@@ -252,11 +256,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -277,7 +279,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="quickstart/" class="md-tabs__link">
+        <a href="../../quickstart/" class="md-tabs__link">
           
   
   
@@ -299,7 +301,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="cmp/" class="md-tabs__link">
+        <a href="../../cmp/" class="md-tabs__link">
           
   
   
@@ -328,7 +330,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="compute/" class="md-tabs__link">
+        <a href="../../compute/" class="md-tabs__link">
           
   
   
@@ -353,7 +355,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="kubernetes/" class="md-tabs__link">
+        <a href="../../kubernetes/" class="md-tabs__link">
           
   
   
@@ -375,7 +377,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="identity/" class="md-tabs__link">
+        <a href="../../identity/" class="md-tabs__link">
           
   
   
@@ -397,7 +399,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="observability/" class="md-tabs__link">
+        <a href="../../observability/" class="md-tabs__link">
           
   
   
@@ -415,11 +417,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="api/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -441,7 +445,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="support/" class="md-tabs__link">
+        <a href="../../support/" class="md-tabs__link">
           
   
   
@@ -477,9 +481,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="SovereignSecure Cloud" class="md-nav__button md-logo" aria-label="SovereignSecure Cloud" data-md-component="logo">
+    <a href="../.." title="SovereignSecure Cloud" class="md-nav__button md-logo" aria-label="SovereignSecure Cloud" data-md-component="logo">
       
-  <img src="assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     SovereignSecure Cloud
@@ -503,37 +507,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Welcome
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -549,59 +526,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#our-commitment-to-sovereignty" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Our Commitment to Sovereignty
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#explore-the-documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Explore the Documentation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#key-sections" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Key Sections
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -638,7 +562,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="quickstart/" class="md-nav__link ">
+            <a href="../../quickstart/" class="md-nav__link ">
               
   
   
@@ -682,7 +606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="quickstart/login/" class="md-nav__link">
+      <a href="../../quickstart/login/" class="md-nav__link">
         
   
   
@@ -710,7 +634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="quickstart/compliance/" class="md-nav__link">
+      <a href="../../quickstart/compliance/" class="md-nav__link">
         
   
   
@@ -770,7 +694,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="cmp/" class="md-nav__link ">
+            <a href="../../cmp/" class="md-nav__link ">
               
   
   
@@ -814,7 +738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="cmp/catalog/" class="md-nav__link">
+      <a href="../../cmp/catalog/" class="md-nav__link">
         
   
   
@@ -842,7 +766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="cmp/reporting/" class="md-nav__link">
+      <a href="../../cmp/reporting/" class="md-nav__link">
         
   
   
@@ -970,7 +894,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="compute/" class="md-nav__link ">
+            <a href="../../compute/" class="md-nav__link ">
               
   
   
@@ -1014,7 +938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/openstack/" class="md-nav__link">
+      <a href="../../compute/openstack/" class="md-nav__link">
         
   
   
@@ -1042,7 +966,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/instance/" class="md-nav__link">
+      <a href="../../compute/instance/" class="md-nav__link">
         
   
   
@@ -1070,7 +994,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/instance_user/" class="md-nav__link">
+      <a href="../../compute/instance_user/" class="md-nav__link">
         
   
   
@@ -1098,7 +1022,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/gpu_instance/" class="md-nav__link">
+      <a href="../../compute/gpu_instance/" class="md-nav__link">
         
   
   
@@ -1126,7 +1050,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/bmaas/" class="md-nav__link">
+      <a href="../../compute/bmaas/" class="md-nav__link">
         
   
   
@@ -1154,7 +1078,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/image/" class="md-nav__link">
+      <a href="../../compute/image/" class="md-nav__link">
         
   
   
@@ -1182,7 +1106,7 @@
   
   
     <li class="md-nav__item">
-      <a href="compute/keypair/" class="md-nav__link">
+      <a href="../../compute/keypair/" class="md-nav__link">
         
   
   
@@ -1247,7 +1171,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="storage/" class="md-nav__link ">
+            <a href="../../storage/" class="md-nav__link ">
               
   
   
@@ -1291,7 +1215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="storage/ceph/" class="md-nav__link">
+      <a href="../../storage/ceph/" class="md-nav__link">
         
   
   
@@ -1319,7 +1243,7 @@
   
   
     <li class="md-nav__item">
-      <a href="storage/block_storage/" class="md-nav__link">
+      <a href="../../storage/block_storage/" class="md-nav__link">
         
   
   
@@ -1347,7 +1271,7 @@
   
   
     <li class="md-nav__item">
-      <a href="storage/object_storage/" class="md-nav__link">
+      <a href="../../storage/object_storage/" class="md-nav__link">
         
   
   
@@ -1375,7 +1299,7 @@
   
   
     <li class="md-nav__item">
-      <a href="storage/file_storage/" class="md-nav__link">
+      <a href="../../storage/file_storage/" class="md-nav__link">
         
   
   
@@ -1444,7 +1368,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="network/" class="md-nav__link ">
+            <a href="../../network/" class="md-nav__link ">
               
   
   
@@ -1488,7 +1412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="network/sdn/" class="md-nav__link">
+      <a href="../../network/sdn/" class="md-nav__link">
         
   
   
@@ -1516,7 +1440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="network/vpc/" class="md-nav__link">
+      <a href="../../network/vpc/" class="md-nav__link">
         
   
   
@@ -1544,7 +1468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="network/routers_fips/" class="md-nav__link">
+      <a href="../../network/routers_fips/" class="md-nav__link">
         
   
   
@@ -1572,7 +1496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="network/security_group/" class="md-nav__link">
+      <a href="../../network/security_group/" class="md-nav__link">
         
   
   
@@ -1600,7 +1524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="network/load_balancer/" class="md-nav__link">
+      <a href="../../network/load_balancer/" class="md-nav__link">
         
   
   
@@ -1628,7 +1552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="network/vpn_direct_connect/" class="md-nav__link">
+      <a href="../../network/vpn_direct_connect/" class="md-nav__link">
         
   
   
@@ -1698,7 +1622,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="kubernetes/" class="md-nav__link ">
+            <a href="../../kubernetes/" class="md-nav__link ">
               
   
   
@@ -1742,7 +1666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="kubernetes/k3s/" class="md-nav__link">
+      <a href="../../kubernetes/k3s/" class="md-nav__link">
         
   
   
@@ -1770,7 +1694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="kubernetes/kaas/" class="md-nav__link">
+      <a href="../../kubernetes/kaas/" class="md-nav__link">
         
   
   
@@ -1798,7 +1722,7 @@
   
   
     <li class="md-nav__item">
-      <a href="kubernetes/clusters/" class="md-nav__link">
+      <a href="../../kubernetes/clusters/" class="md-nav__link">
         
   
   
@@ -1866,7 +1790,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="identity/" class="md-nav__link ">
+            <a href="../../identity/" class="md-nav__link ">
               
   
   
@@ -1910,7 +1834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity/keycloak/" class="md-nav__link">
+      <a href="../../identity/keycloak/" class="md-nav__link">
         
   
   
@@ -1938,7 +1862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity/projects/" class="md-nav__link">
+      <a href="../../identity/projects/" class="md-nav__link">
         
   
   
@@ -1966,7 +1890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity/roles/" class="md-nav__link">
+      <a href="../../identity/roles/" class="md-nav__link">
         
   
   
@@ -1994,7 +1918,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity/teleport/" class="md-nav__link">
+      <a href="../../identity/teleport/" class="md-nav__link">
         
   
   
@@ -2022,7 +1946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity/wazuh/" class="md-nav__link">
+      <a href="../../identity/wazuh/" class="md-nav__link">
         
   
   
@@ -2050,7 +1974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="identity/kms/" class="md-nav__link">
+      <a href="../../identity/kms/" class="md-nav__link">
         
   
   
@@ -2108,7 +2032,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="observability/" class="md-nav__link ">
+            <a href="../../observability/" class="md-nav__link ">
               
   
   
@@ -2152,7 +2076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="observability/prometheus_grafana/" class="md-nav__link">
+      <a href="../../observability/prometheus_grafana/" class="md-nav__link">
         
   
   
@@ -2184,6 +2108,8 @@
       
   
   
+    
+  
   
   
     
@@ -2201,18 +2127,21 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="api/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -2230,13 +2159,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2253,10 +2182,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="api/login/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CLI Configuration
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2272,6 +2228,87 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#migration-from-openrc-to-cloudsyaml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Migration from openrc to clouds.yaml
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#with-an-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        With an editor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#with-a-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        With a script
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="With a script">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bash
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2284,7 +2321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="api/iac/" class="md-nav__link">
+      <a href="../iac/" class="md-nav__link">
         
   
   
@@ -2342,7 +2379,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="support/" class="md-nav__link ">
+            <a href="../../support/" class="md-nav__link ">
               
   
   
@@ -2386,7 +2423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="support/sla/" class="md-nav__link">
+      <a href="../../support/sla/" class="md-nav__link">
         
   
   
@@ -2441,10 +2478,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#our-commitment-to-sovereignty" class="md-nav__link">
+  <a href="#migration-from-openrc-to-cloudsyaml" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Our Commitment to Sovereignty
+        Migration from openrc to clouds.yaml
       
     </span>
   </a>
@@ -2452,10 +2489,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#explore-the-documentation" class="md-nav__link">
+  <a href="#with-an-editor" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Explore the Documentation
+        With an editor
       
     </span>
   </a>
@@ -2463,13 +2500,41 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-sections" class="md-nav__link">
+  <a href="#with-a-script" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Key Sections
+        With a script
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="With a script">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bash
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2494,90 +2559,149 @@
   
 
 
-<h1 id="welcome-to-sovereignsecure-cloud-tm-documentation">Welcome to SovereignSecure Cloud &trade; Documentation<a class="headerlink" href="#welcome-to-sovereignsecure-cloud-tm-documentation" title="Permanent link">#</a></h1>
-<p>Welcome to SovereignSecure Cloud, your trusted platform for secure, compliant, and high-performance cloud services. Built on a foundation of OpenStack and enhanced with ManageIQ for comprehensive cloud management, we empower organizations to maintain full control over their data and operations within a sovereign digital environment.</p>
-<h2 id="our-commitment-to-sovereignty">Our Commitment to Sovereignty<a class="headerlink" href="#our-commitment-to-sovereignty" title="Permanent link">#</a></h2>
-<p>SovereignSecure Cloud is designed to meet the stringent requirements of data sovereignty, ensuring that your data remains within specified geographical and legal jurisdictions. We achieve this through:</p>
-<ul>
-<li><strong>Data Residency:</strong> Your data is stored and processed exclusively in designated regions, adhering to local regulations.</li>
-<li><strong>Operational Autonomy:</strong> Our infrastructure and operations are managed by local teams, ensuring transparency and control.</li>
-<li><strong>Open Source Foundation:</strong> Leveraging OpenStack and other open-source technologies minimizes vendor lock-in and provides a transparent, auditable stack.</li>
-<li><strong>Robust Security &amp; Compliance:</strong> We implement advanced security measures and maintain certifications to protect your sensitive workloads.</li>
-</ul>
-<h2 id="explore-the-documentation">Explore the Documentation<a class="headerlink" href="#explore-the-documentation" title="Permanent link">#</a></h2>
-<p>Use the navigation on the left to explore our comprehensive guides:</p>
-<pre class="mermaid"><code>graph TD
-    subgraph SovereignCloud[&lt;b&gt;SovereignSecure Cloud &amp;trade;&lt;/b&gt;]
-        direction TB
+<h1 id="api-overview">API overview<a class="headerlink" href="#api-overview" title="Permanent link">#</a></h1>
+<p>With the OpenStack client you can specify the cloud profile specified in the <code>clouds.yaml</code>
+configuration file  by providing the <code>--os-cloud &lt;cloud identifier&gt;</code> parameter.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>openstack --os-cloud openstack network list
+</span></code></pre></div>
+<h2 id="migration-from-openrc-to-cloudsyaml">Migration from openrc to clouds.yaml<a class="headerlink" href="#migration-from-openrc-to-cloudsyaml" title="Permanent link">#</a></h2>
+<p>If you have your <code>openrc</code> file  but you need this information in a <code>clouds.yaml</code> file,
+this can easily be converted.</p>
+<h2 id="with-an-editor">With an editor<a class="headerlink" href="#with-an-editor" title="Permanent link">#</a></h2>
+<p>Example content of a <code>openrc</code> file downloaded from Horizon dashboard.</p>
+<div class="language-sh highlight"><span class="filename">PROJECT-openrc.sh</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="ch">#!/usr/bin/env bash</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="c1"># To use an OpenStack cloud you need to authenticate against the Identity</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="c1"># service named keystone, which returns a **Token** and **Service Catalog**.</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="c1"># The catalog contains the endpoints for all services the user/tenant has</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="c1"># access to - such as Compute, Image Service, Identity, Object Storage, Block</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="c1"># Storage, and Networking (code-named nova, glance, keystone, swift,</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="c1"># cinder, and neutron).</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="c1">#</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="c1"># *NOTE*: Using the 3 *Identity API* does not necessarily mean any other</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="c1"># OpenStack API is version 3. For example, your cloud provider may implement</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="c1"># Image API v1.1, Block Storage API v2, and Compute API v2.0. OS_AUTH_URL is</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="c1"># only for the Identity API served through keystone.</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OS_AUTH_URL</span><span class="o">=</span>https://api-external.sovereignsecure.cloud:5000/v3
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="c1"># With the addition of Keystone we have standardized on the term **project**</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="c1"># as the entity that owns the resources.</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OS_PROJECT_ID</span><span class="o">=</span>PROJECT_ID
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OS_PROJECT_NAME</span><span class="o">=</span><span class="s2">&quot;PROJECT&quot;</span>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OS_USER_DOMAIN_NAME</span><span class="o">=</span><span class="s2">&quot;DOMAIN&quot;</span>
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$OS_USER_DOMAIN_NAME</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span><span class="w"> </span><span class="nb">unset</span><span class="w"> </span>OS_USER_DOMAIN_NAME<span class="p">;</span><span class="w"> </span><span class="k">fi</span>
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OS_PROJECT_DOMAIN_ID</span><span class="o">=</span><span class="s2">&quot;DOMAIN_ID&quot;</span>
+</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$OS_PROJECT_DOMAIN_ID</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span><span class="w"> </span><span class="nb">unset</span><span class="w"> </span>OS_PROJECT_DOMAIN_ID<span class="p">;</span><span class="w"> </span><span class="k">fi</span>
+</span><span id="__span-1-22"><a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="c1"># unset v2.0 items in case set</span>
+</span><span id="__span-1-23"><a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="nb">unset</span><span class="w"> </span>OS_TENANT_ID
+</span><span id="__span-1-24"><a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="nb">unset</span><span class="w"> </span>OS_TENANT_NAME
+</span><span id="__span-1-25"><a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="c1"># In addition to the owning entity (tenant), OpenStack stores the entity</span>
+</span><span id="__span-1-26"><a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="c1"># performing the action as the **user**.</span>
+</span><span id="__span-1-27"><a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OS_USERNAME</span><span class="o">=</span><span class="s2">&quot;USERNAME&quot;</span>
+</span><span id="__span-1-28"><a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a><span class="c1"># With Keystone you pass the keystone password.</span>
+</span><span id="__span-1-29"><a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Please enter your OpenStack Password for project </span><span class="nv">$OS_PROJECT_NAME</span><span class="s2"> as user </span><span class="nv">$OS_USERNAME</span><span class="s2">: &quot;</span>
+</span><span id="__span-1-30"><a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="nb">read</span><span class="w"> </span>-sr<span class="w"> </span>OS_PASSWORD_INPUT
+</span><span id="__span-1-31"><a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OS_PASSWORD</span><span class="o">=</span><span class="nv">$OS_PASSWORD_INPUT</span>
+</span><span id="__span-1-32"><a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a><span class="c1"># If your configuration has multiple regions, we set that information here.</span>
+</span><span id="__span-1-33"><a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a><span class="c1"># OS_REGION_NAME is optional and only valid in certain environments.</span>
+</span><span id="__span-1-34"><a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OS_REGION_NAME</span><span class="o">=</span><span class="s2">&quot;RegionOne&quot;</span>
+</span><span id="__span-1-35"><a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a><span class="c1"># Don&#39;t leave a blank variable, unset it if it was empty</span>
+</span><span id="__span-1-36"><a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$OS_REGION_NAME</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span><span class="w"> </span><span class="nb">unset</span><span class="w"> </span>OS_REGION_NAME<span class="p">;</span><span class="w"> </span><span class="k">fi</span>
+</span><span id="__span-1-37"><a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OS_INTERFACE</span><span class="o">=</span>public
+</span><span id="__span-1-38"><a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OS_IDENTITY_API_VERSION</span><span class="o">=</span><span class="m">3</span>
+</span></code></pre></div>
+<p>First you need to create a <code>clouds.yaml</code> file. Take care of the indentation and
+use spaces instead of tabs.</p>
+<div class="language-yaml highlight"><span class="filename">clouds.yaml</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">clouds</span><span class="p">:</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="nt">openstack</span><span class="p">:</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">auth</span><span class="p">:</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">      </span><span class="nt">auth_url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;OS_AUTH_URL goes here&gt;</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">      </span><span class="nt">password</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;OS_PASSWORD goes here, if not set, enter you password here&gt;</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">      </span><span class="nt">project_domain_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;OS_PROJECT_DOMAIN_NAME goes here&gt;</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">      </span><span class="nt">project_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;OS_PROJECT_NAME goes here&gt;</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">      </span><span class="nt">user_domain_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;OS_USER_DOMAIN_NAME goes here&gt;</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">      </span><span class="nt">username</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;OS_USERNAME goes here&gt;</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">  </span><span class="w w-Error"> </span><span class="nt">region_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;OS_REGION_NAME goes here&gt;</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">   </span><span class="nt">identity_api_version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;OS_IDENTITY_API_VERSION goes here&gt;</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">   </span><span class="nt">interface</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;OS_INTERFACE goes here&gt;</span>
+</span></code></pre></div>
+<p>The final <code>clouds.yaml</code> for your <code>openrc</code> will then look like this one. The content
+from the previous <code>PROJECT-openrc.sh</code> example was used here.</p>
+<div class="language-yaml highlight"><span class="filename">clouds.yaml</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nt">clouds</span><span class="p">:</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="nt">openstack</span><span class="p">:</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="nt">auth</span><span class="p">:</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">      </span><span class="nt">auth_url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://api-external.sovereignsecure.cloud:5000/v3</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">      </span><span class="nt">password</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PASSWORD</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">      </span><span class="nt">project_domain_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DOMAIN</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">      </span><span class="nt">project_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PROJECT</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">      </span><span class="nt">user_domain_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DOMAIN</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">      </span><span class="nt">username</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">USERNAME</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">  </span><span class="w w-Error"> </span><span class="nt">region_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RegionOne</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">   </span><span class="nt">identity_api_version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">   </span><span class="nt">interface</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">public</span>
+</span></code></pre></div>
+<h2 id="with-a-script">With a script<a class="headerlink" href="#with-a-script" title="Permanent link">#</a></h2>
+<h3 id="python">Python<a class="headerlink" href="#python" title="Permanent link">#</a></h3>
+<div class="language-python highlight"><span class="filename">clouds.py</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">yaml</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="n">clouds</span> <span class="o">=</span> <span class="p">{</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>  <span class="s2">&quot;clouds&quot;</span><span class="p">:{</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    <span class="s2">&quot;openstack&quot;</span><span class="p">:</span> <span class="p">{</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>      <span class="s2">&quot;auth&quot;</span> <span class="p">:</span> <span class="p">{</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>        <span class="s2">&quot;auth_url&quot;</span> <span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OS_AUTH_URL&quot;</span><span class="p">],</span>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>        <span class="s2">&quot;project_name&quot;</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OS_PROJECT_NAME&quot;</span><span class="p">],</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>        <span class="s2">&quot;project_domain_name&quot;</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OS_PROJECT_DOMAIN_NAME&quot;</span><span class="p">],</span>
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>        <span class="s2">&quot;username&quot;</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OS_USERNAME&quot;</span><span class="p">],</span>
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>        <span class="s2">&quot;user_domain_name&quot;</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OS_USER_DOMAIN_NAME&quot;</span><span class="p">],</span>
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>        <span class="s2">&quot;password&quot;</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OS_PASSWORD&quot;</span><span class="p">],</span>
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>      <span class="p">},</span>
+</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>      <span class="s2">&quot;region_name&quot;</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OS_REGION_NAME&quot;</span><span class="p">],</span>
+</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>      <span class="s2">&quot;identity_api_version&quot;</span><span class="p">:</span>  <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OS_IDENTITY_API_VERSION&quot;</span><span class="p">],</span>
+</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>      <span class="s2">&quot;interface&quot;</span><span class="p">:</span> <span class="s2">&quot;public&quot;</span>
+</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>    <span class="p">}</span>
+</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a>  <span class="p">}</span>
+</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a><span class="p">}</span>
+</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a>
+</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a><span class="nb">print</span><span class="p">(</span><span class="n">yaml</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">clouds</span><span class="p">))</span>
+</span></code></pre></div>
+<p>First you need to source your <code>openrc</code> file so that the <code>OS_</code> variables are available.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>source PROJECT-openrc.sh
+</span></code></pre></div>
+<p>Now you can execute the Python script and a <code>clouds.yaml</code> will be written.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>python3 clouds.py &gt; clouds.yaml
+</span></code></pre></div>
+<h3 id="bash">Bash<a class="headerlink" href="#bash" title="Permanent link">#</a></h3>
+<p>You need to point the <code>source</code> line to your <code>openrc</code> file first. Then execute the Bash script.
+This will create the <code>clouds.yaml</code> file in your currect directory</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>#!/bin/bash
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>source PROJECT-openrc.sh
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>PROJECT_ID=$(openstack project list | grep $OS_PROJECT_NAME | awk &#39;{print $2}&#39;)
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>cat &lt;&lt; EOF &gt; clouds.yaml
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>clouds:
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>  openstack:
+</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>    auth:
+</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>      auth_url: $OS_AUTH_URL
+</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>      username: &quot;$OS_USERNAME&quot;
+</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>      password: &quot;$OS_PASSWORD&quot;
+</span><span id="__span-7-14"><a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>      project_name: &quot;$OS_PROJECT_NAME&quot;
+</span><span id="__span-7-15"><a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>      project_id: &quot;$PROJECT_ID&quot;
+</span><span id="__span-7-16"><a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a>      user_domain_name: &quot;$OS_USER_DOMAIN_NAME&quot;
+</span><span id="__span-7-17"><a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a>    region_name: &quot;$OS_REGION_NAME&quot;
+</span><span id="__span-7-18"><a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a>    interface: &quot;public&quot;
+</span><span id="__span-7-19"><a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a>    identity_api_version: $OS_IDENTITY_API_VERSION
+</span><span id="__span-7-20"><a id="__codelineno-7-20" name="__codelineno-7-20" href="#__codelineno-7-20"></a>EOF
+</span></code></pre></div>
 
-        subgraph DataControl[&lt;b&gt;Data Control &amp; Sovereignty&lt;/b&gt;]
-            DC[Data Residency Laws]
-            DP[Data Protection]
-            DG[Data Governance]
-        end
-
-        subgraph Security[&lt;b&gt;Security &amp; Compliance&lt;/b&gt;]
-            IS[Infrastructure Security]
-            EN[Encryption]
-            CS[Certifications &amp; Standards]
-        end
-
-        subgraph Deployment[&lt;b&gt;Deployment Models&lt;/b&gt;]
-            PB[Public Sovereign Cloud]
-            PR[Private Sovereign Cloud]
-            HY[Hybrid Sovereign Cloud]
-        end
-
-        subgraph Providers[&lt;b&gt;Key Components&lt;/b&gt;]
-            OS[Onshore Operations]
-            LC[Cloud Providers]
-            OP[Open Source Technologies]
-        end
-
-        DataControl --&gt;|Ensures| Security
-        Security --&gt;|Supports| Deployment
-        Deployment --&gt;|Leverages| Providers
-        Providers --&gt;|Maintains| DataControl
-    end
-
-    Government[Government Regulations] -.-&gt; DataControl
-    Enterprise[Enterprise Requirements] -.-&gt; Security
-    Users[End User Privacy] -.-&gt; Deployment</code></pre>
-<h2 id="key-sections">Key Sections<a class="headerlink" href="#key-sections" title="Permanent link">#</a></h2>
-<div class="grid cards">
-<ul>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m13.13 22.19-1.63-3.83c1.57-.58 3.04-1.36 4.4-2.27zM5.64 12.5l-3.83-1.63 6.1-2.77C7 9.46 6.22 10.93 5.64 12.5M21.61 2.39S16.66.269 11 5.93c-2.19 2.19-3.5 4.6-4.35 6.71-.28.75-.09 1.57.46 2.13l2.13 2.12c.55.56 1.37.74 2.12.46A19.1 19.1 0 0 0 18.07 13c5.66-5.66 3.54-10.61 3.54-10.61m-7.07 7.07c-.78-.78-.78-2.05 0-2.83s2.05-.78 2.83 0c.77.78.78 2.05 0 2.83s-2.05.78-2.83 0m-5.66 7.07-1.41-1.41zM6.24 22l3.64-3.64c-.34-.09-.67-.24-.97-.45L4.83 22zM2 22h1.41l4.77-4.76-1.42-1.41L2 20.59zm0-2.83 4.09-4.08c-.21-.3-.36-.62-.45-.97L2 17.76z"/></svg></span> <strong>Getting Started</strong></p>
-<hr />
-<p>A step-by-step guide for new users to quickly onboard and deploy their first resources.</p>
-<p><a href="quickstart/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Quick Start</a></p>
-</li>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16V4H3v12zm0-14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-7v2h2v2H8v-2h2v-2H3a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2zM5 6h9v5H5zm10 0h4v2h-4zm4 3v5h-4V9zM5 12h4v2H5zm5 0h4v2h-4z"/></svg></span> <strong>Cloud Management (CMP)</strong></p>
-<hr />
-<p>Learn how to use the ManageIQ portal for self-service provisioning, catalogs, and reporting.</p>
-<p><a href="cmp/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> CMP Overview</a></p>
-</li>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 19h1a1 1 0 0 1 1 1h7v2h-7a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1H2v-2h7a1 1 0 0 1 1-1h1v-2H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-7zM4 3h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1m5 4h1V5H9zm0 8h1v-2H9zM5 5v2h2V5zm0 8v2h2v-2z"/></svg></span> <strong>Core Services</strong></p>
-<hr />
-<p>Deep dive into our Compute, Storage, and Networking offerings, including GPU instances.</p>
-<p><a href="compute/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Explore Services</a></p>
-</li>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 7H5a2 2 0 0 0-2 2v8h2v-4h2v4h2V9a2 2 0 0 0-2-2m0 4H5V9h2m7-2h-4v10h2v-4h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2m0 4h-2V9h2m6 0v6h1v2h-4v-2h1V9h-1V7h4v2Z"/></svg></span> <strong>API &amp; Automation</strong></p>
-<hr />
-<p>Integrate with our platform using OpenStack native APIs and IaC tools like Terraform.</p>
-<p><a href="api/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> API Overview</a></p>
-</li>
-</ul>
-</div>
 
 
 
 
 
 
+  
+  
 
 
 
@@ -2646,10 +2770,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.top", "navigation.tabs", "search.suggest", "content.code.annotate", "content.code.copy", "toc.follow", "content.tooltips", "navigation.indexes", "content.footnote.tooltips", "announce.dismiss"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "content.code.annotate", "content.code.copy", "toc.follow", "content.tooltips", "navigation.indexes", "content.footnote.tooltips", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

@@ -12,25 +12,31 @@
         <meta name="author" content="kkramineni">
       
       
+        <link rel="canonical" href="https://sovereignsecurecloud.com/kubernetes/kaas/">
       
+      
+        <link rel="prev" href="../k3s/">
+      
+      
+        <link rel="next" href="../clusters/">
       
       
         
       
       
-      <link rel="icon" href="/assets/logo.png">
+      <link rel="icon" href="../../assets/logo.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>SovereignSecure Cloud</title>
+        <title>KaaS (Cluster API) - SovereignSecure Cloud</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="/custom/extra.css">
+      <link rel="stylesheet" href="../../custom/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -59,6 +65,8 @@
     
 
 <!-- Determine title -->
+
+
 
 
 
@@ -84,6 +92,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#kubernetes-as-a-service-kaas" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -113,9 +126,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="SovereignSecure Cloud" class="md-header__button md-logo" aria-label="SovereignSecure Cloud" data-md-component="logo">
+    <a href="../.." title="SovereignSecure Cloud" class="md-header__button md-logo" aria-label="SovereignSecure Cloud" data-md-component="logo">
       
-  <img src="/assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -132,7 +145,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              KaaS (Cluster API)
             
           </span>
         </div>
@@ -245,7 +258,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -266,7 +279,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/quickstart/" class="md-tabs__link">
+        <a href="../../quickstart/" class="md-tabs__link">
           
   
   
@@ -288,7 +301,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/cmp/" class="md-tabs__link">
+        <a href="../../cmp/" class="md-tabs__link">
           
   
   
@@ -317,7 +330,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/compute/" class="md-tabs__link">
+        <a href="../../compute/" class="md-tabs__link">
           
   
   
@@ -338,11 +351,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/kubernetes/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -364,7 +379,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/identity/" class="md-tabs__link">
+        <a href="../../identity/" class="md-tabs__link">
           
   
   
@@ -386,7 +401,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/observability/" class="md-tabs__link">
+        <a href="../../observability/" class="md-tabs__link">
           
   
   
@@ -408,7 +423,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/api/" class="md-tabs__link">
+        <a href="../../api/" class="md-tabs__link">
           
   
   
@@ -430,7 +445,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/support/" class="md-tabs__link">
+        <a href="../../support/" class="md-tabs__link">
           
   
   
@@ -466,9 +481,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="SovereignSecure Cloud" class="md-nav__button md-logo" aria-label="SovereignSecure Cloud" data-md-component="logo">
+    <a href="../.." title="SovereignSecure Cloud" class="md-nav__button md-logo" aria-label="SovereignSecure Cloud" data-md-component="logo">
       
-  <img src="/assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     SovereignSecure Cloud
@@ -495,7 +510,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -547,7 +562,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/quickstart/" class="md-nav__link ">
+            <a href="../../quickstart/" class="md-nav__link ">
               
   
   
@@ -591,7 +606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/quickstart/login/" class="md-nav__link">
+      <a href="../../quickstart/login/" class="md-nav__link">
         
   
   
@@ -619,7 +634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/quickstart/compliance/" class="md-nav__link">
+      <a href="../../quickstart/compliance/" class="md-nav__link">
         
   
   
@@ -679,7 +694,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/cmp/" class="md-nav__link ">
+            <a href="../../cmp/" class="md-nav__link ">
               
   
   
@@ -723,7 +738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cmp/catalog/" class="md-nav__link">
+      <a href="../../cmp/catalog/" class="md-nav__link">
         
   
   
@@ -751,7 +766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cmp/reporting/" class="md-nav__link">
+      <a href="../../cmp/reporting/" class="md-nav__link">
         
   
   
@@ -879,7 +894,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/compute/" class="md-nav__link ">
+            <a href="../../compute/" class="md-nav__link ">
               
   
   
@@ -923,7 +938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/compute/openstack/" class="md-nav__link">
+      <a href="../../compute/openstack/" class="md-nav__link">
         
   
   
@@ -951,7 +966,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/compute/instance/" class="md-nav__link">
+      <a href="../../compute/instance/" class="md-nav__link">
         
   
   
@@ -979,7 +994,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/compute/instance_user/" class="md-nav__link">
+      <a href="../../compute/instance_user/" class="md-nav__link">
         
   
   
@@ -1007,7 +1022,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/compute/gpu_instance/" class="md-nav__link">
+      <a href="../../compute/gpu_instance/" class="md-nav__link">
         
   
   
@@ -1035,7 +1050,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/compute/bmaas/" class="md-nav__link">
+      <a href="../../compute/bmaas/" class="md-nav__link">
         
   
   
@@ -1063,7 +1078,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/compute/image/" class="md-nav__link">
+      <a href="../../compute/image/" class="md-nav__link">
         
   
   
@@ -1091,7 +1106,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/compute/keypair/" class="md-nav__link">
+      <a href="../../compute/keypair/" class="md-nav__link">
         
   
   
@@ -1156,7 +1171,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/storage/" class="md-nav__link ">
+            <a href="../../storage/" class="md-nav__link ">
               
   
   
@@ -1200,7 +1215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/storage/ceph/" class="md-nav__link">
+      <a href="../../storage/ceph/" class="md-nav__link">
         
   
   
@@ -1228,7 +1243,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/storage/block_storage/" class="md-nav__link">
+      <a href="../../storage/block_storage/" class="md-nav__link">
         
   
   
@@ -1256,7 +1271,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/storage/object_storage/" class="md-nav__link">
+      <a href="../../storage/object_storage/" class="md-nav__link">
         
   
   
@@ -1284,7 +1299,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/storage/file_storage/" class="md-nav__link">
+      <a href="../../storage/file_storage/" class="md-nav__link">
         
   
   
@@ -1353,7 +1368,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/network/" class="md-nav__link ">
+            <a href="../../network/" class="md-nav__link ">
               
   
   
@@ -1397,7 +1412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/network/sdn/" class="md-nav__link">
+      <a href="../../network/sdn/" class="md-nav__link">
         
   
   
@@ -1425,7 +1440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/network/vpc/" class="md-nav__link">
+      <a href="../../network/vpc/" class="md-nav__link">
         
   
   
@@ -1453,7 +1468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/network/routers_fips/" class="md-nav__link">
+      <a href="../../network/routers_fips/" class="md-nav__link">
         
   
   
@@ -1481,7 +1496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/network/security_group/" class="md-nav__link">
+      <a href="../../network/security_group/" class="md-nav__link">
         
   
   
@@ -1509,7 +1524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/network/load_balancer/" class="md-nav__link">
+      <a href="../../network/load_balancer/" class="md-nav__link">
         
   
   
@@ -1537,7 +1552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/network/vpn_direct_connect/" class="md-nav__link">
+      <a href="../../network/vpn_direct_connect/" class="md-nav__link">
         
   
   
@@ -1577,6 +1592,8 @@
       
   
   
+    
+  
   
   
     
@@ -1596,18 +1613,21 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/kubernetes/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -1625,13 +1645,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1651,7 +1671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes/k3s/" class="md-nav__link">
+      <a href="../k3s/" class="md-nav__link">
         
   
   
@@ -1676,10 +1696,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/kubernetes/kaas/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KaaS (Cluster API)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1695,6 +1742,48 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cluster-api-capi-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cluster API (CAPI) Integration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1707,7 +1796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/kubernetes/clusters/" class="md-nav__link">
+      <a href="../clusters/" class="md-nav__link">
         
   
   
@@ -1775,7 +1864,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/identity/" class="md-nav__link ">
+            <a href="../../identity/" class="md-nav__link ">
               
   
   
@@ -1819,7 +1908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/identity/keycloak/" class="md-nav__link">
+      <a href="../../identity/keycloak/" class="md-nav__link">
         
   
   
@@ -1847,7 +1936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/identity/projects/" class="md-nav__link">
+      <a href="../../identity/projects/" class="md-nav__link">
         
   
   
@@ -1875,7 +1964,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/identity/roles/" class="md-nav__link">
+      <a href="../../identity/roles/" class="md-nav__link">
         
   
   
@@ -1903,7 +1992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/identity/teleport/" class="md-nav__link">
+      <a href="../../identity/teleport/" class="md-nav__link">
         
   
   
@@ -1931,7 +2020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/identity/wazuh/" class="md-nav__link">
+      <a href="../../identity/wazuh/" class="md-nav__link">
         
   
   
@@ -1959,7 +2048,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/identity/kms/" class="md-nav__link">
+      <a href="../../identity/kms/" class="md-nav__link">
         
   
   
@@ -2017,7 +2106,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/observability/" class="md-nav__link ">
+            <a href="../../observability/" class="md-nav__link ">
               
   
   
@@ -2061,7 +2150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/observability/prometheus_grafana/" class="md-nav__link">
+      <a href="../../observability/prometheus_grafana/" class="md-nav__link">
         
   
   
@@ -2121,7 +2210,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/api/" class="md-nav__link ">
+            <a href="../../api/" class="md-nav__link ">
               
   
   
@@ -2165,7 +2254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api/login/" class="md-nav__link">
+      <a href="../../api/login/" class="md-nav__link">
         
   
   
@@ -2193,7 +2282,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api/iac/" class="md-nav__link">
+      <a href="../../api/iac/" class="md-nav__link">
         
   
   
@@ -2251,7 +2340,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/support/" class="md-nav__link ">
+            <a href="../../support/" class="md-nav__link ">
               
   
   
@@ -2295,7 +2384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/support/sla/" class="md-nav__link">
+      <a href="../../support/sla/" class="md-nav__link">
         
   
   
@@ -2340,6 +2429,38 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cluster-api-capi-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cluster API (CAPI) Integration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2352,7 +2473,53 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+
+                  
+
+
+  
+  
+
+
+<h1 id="kubernetes-as-a-service-kaas">Kubernetes as a Service (KaaS)<a class="headerlink" href="#kubernetes-as-a-service-kaas" title="Permanent link">#</a></h1>
+<p>SovereignSecure Cloud provides enterprise-grade <strong>Kubernetes as a Service (KaaS)</strong> utilizing <strong>Cluster API (CAPI)</strong>. </p>
+<h2 id="cluster-api-capi-integration">Cluster API (CAPI) Integration<a class="headerlink" href="#cluster-api-capi-integration" title="Permanent link">#</a></h2>
+<p>Cluster API is a Kubernetes project that brings declarative, Kubernetes-style APIs to cluster creation, configuration, and management. </p>
+<p>Instead of manually provisioning OpenStack instances and installing Kubernetes, CAPI allows you to define your desired cluster state in a YAML file.</p>
+<ul>
+<li><strong>Declarative Management:</strong> Define the number of control plane nodes, worker nodes, and Kubernetes versions as code.</li>
+<li><strong>Lifecycle Automation:</strong> Easily upgrade Kubernetes versions, scale worker nodes up or down, or replace unhealthy nodes automatically.</li>
+<li><strong>Native OpenStack Synergy:</strong> Our CAPI provider interacts directly with OpenStack Nova, Neutron, and Octavia to automatically provision the VMs, load balancers, and security groups required for your cluster.</li>
+</ul>
+<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">#</a></h2>
+<p>You can request a new Managed Kubernetes cluster directly through the Cloud Management Platform (CMP) self-service catalog, which will orchestrate the CAPI deployment on your behalf.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+
+<!-- Content footer -->
+<footer class="mdx-content__footer md-typeset">
+
+    <hr />
+    <span class="twemoji">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v151.5L7.5 426.3C2.6 435 0 444.7 0 454.7 0 486.4 25.6 512 57.3 512h333.4c31.6 0 57.3-25.6 57.3-57.3 0-10-2.6-19.8-7.5-28.4L320 215.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0zm-96 215.5V64h64v151.5c0 11.1 2.9 22.1 8.4 31.8L306 320H142l41.6-72.7c5.5-9.7 8.4-20.6 8.4-31.8"/></svg>
+    </span>
+    <hr />
+
+</footer>
 
               </article>
             </div>
@@ -2403,10 +2570,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.top", "navigation.tabs", "search.suggest", "content.code.annotate", "content.code.copy", "toc.follow", "content.tooltips", "navigation.indexes", "content.footnote.tooltips", "announce.dismiss"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.tabs", "search.suggest", "content.code.annotate", "content.code.copy", "toc.follow", "content.tooltips", "navigation.indexes", "content.footnote.tooltips", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
