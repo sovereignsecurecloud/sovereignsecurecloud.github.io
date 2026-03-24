@@ -17,7 +17,7 @@ Explore as seções a seguir para aprender a gerenciar o acesso e monitorar seu 
 * **[Usuários e Projetos](projects.md):** Entenda como os recursos de nuvem são agrupados logicamente em Projetos (locatários/tenants) e como gerenciar os usuários que operam dentro deles.
 * **[Funções e Políticas](roles.md):** Descubra como o Controle de Acesso Baseado em Função (RBAC) aplica o princípio do menor privilégio em toda a sua infraestrutura.
 * **[Teleport PAM](teleport.md):** Proteja e audite seu acesso administrativo privilegiado a Instâncias de Computação e clusters Kubernetes usando nosso gateway de acesso zero-trust.
-* **[Wazuh SIEM](wazuh.md):** Monitore a postura de segurança da sua infraestrutura, detecte ameaças e garanta a conformidade usando nossa plataforma integrada de Gerenciamento de Eventos e Informações de Segurança (SIEM).
+* **[SIEM](siem.md):** Monitore a postura de segurança da sua infraestrutura, detecte ameaças e garanta a conformidade usando nossa plataforma integrada de Gerenciamento de Eventos e Informações de Segurança (SIEM).
 
 ## Soberania e Conformidade
 
