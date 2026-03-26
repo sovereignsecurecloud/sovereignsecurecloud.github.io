@@ -11,7 +11,26 @@ SovereignSecure Cloud is designed to meet the stringent requirements of data sov
 *   **Open Source Foundation:** Leveraging OpenStack and other open-source technologies minimizes vendor lock-in and provides a transparent, auditable stack.
 *   **Robust Security & Compliance:** We implement advanced security measures and maintain certifications to protect your sensitive workloads.
 
+!!! Question "FAQs"
+    **Due to the hardware binding of PCI devices, GPU instance** -- 123
+
+
+
 ## Deployment Models
+
+
+| Feature | TCS SovereignSecure Cloud | SovereignSecure Cloud Local |SovereignSecure Cloud Managed | Remarks |
+| :--- | :--- | :--- | :--- | :--- |
+| **Location** | TCS's Data Center | **Your DC or Your chosen DC** | **Your DC or Your chosen DC** |  |
+| **Hardware Ownership** | TCS | Your Organization | **TCS** |  |
+| **Cloud Platform Technical Stack Ownership** | TCS | TCS or Your Organization | TCS | |
+| **Tenancy** | **Multi-tenant** (Shared) or **(Dedicated)** | **Single-tenant** (Dedicated) | **Single-tenant** (Dedicated) |  |
+| **Scalability** | High | Limited by owned hardware | High |  |
+| **Control** | Medium | High  | High |   |
+| **Management** | TCS Managed |  Your Organization *  | TCS Managed |  * TCS will perform Build, Operate and Trasnfer Model|
+| **Cost Model** | OpEx (Pay-as-you-go) | Mixed/ OpEx  | OpEx (Pay-as-you-go) |  |
+| **Security** | Shared Responsibility* | Full Internal Control |  Full Internal Control |  * Upto Platform TCS, beyond platform Customer owns|
+
 
 ### TCS DC & TCS Hardware
 

@@ -2,6 +2,7 @@
 
 nav:
   - Welcome: index.md
+  - Architecture: architecture.md
   - Bill of Materials: bill-of-materials.md
   - Getting Started:
       - Quick Start Guide: quickstart/index.md

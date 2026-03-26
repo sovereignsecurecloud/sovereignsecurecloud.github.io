@@ -1,21 +1,21 @@
-# Bill of Materials (BOM)
+# Platform Architecture
 
-> **Note:** The brands, models, and configurations listed are examples. There is no single best specification for every use case. However, it is important to consider the underlying hardware when designing a cloud infrastructure.
+![Image title](assets/az.png){ width="400" }
 
-To build a cloud pod, a specific set of hardware components is required. This Bill of Materials (BOM) provides an overview of the typical hardware components used in an SovereignSecure Cloud environment.
+OSISM is a comprehensive platform for managing software-defined cloud infrastructure. To build a cloud pod, a specific set of hardware components is required. This Bill of Materials (BOM) provides an overview of the typical hardware components used in an OSISM-managed environment.
 
 ---
 
 ## 1. Node Role Overview
 
-A standard deployment consists of several types of nodes, each serving a specific purpose within the infrastructure:
+A standard OSISM deployment consists of several types of nodes, each serving a specific purpose within the infrastructure:
 
-* **Management Stack Nodes:** Run the management services (Ansible, Docker registry, Obserability, and Security etc.).
+* **Manager Nodes:** Run the OSISM management services (Ansible, Docker registry, netbox, etc.).
 * **Control Nodes:** Run the control plane services (OpenStack APIs, databases, message queues).
 * **Compute Nodes:** Host the virtual machines (OpenStack Nova).
 * **Storage Nodes:** Provide the distributed storage backend (Ceph OSDs).
 * **Network Nodes:** Handle external network traffic and L3 services (OpenStack Neutron).
-* **PaaS Nodes:** Handle Platform as a Services using Containers (KaaS, DBaaS etc..).
+
 ---
 
 ## 2. Component Specifications
