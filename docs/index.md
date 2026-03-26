@@ -12,34 +12,41 @@ SovereignSecure Cloud is designed to meet the stringent requirements of data sov
 *   **Robust Security & Compliance:** We implement advanced security measures and maintain certifications to protect your sensitive workloads.
 
 !!! Question "FAQs"
-    **Due to the hardware binding of PCI devices, GPU instance** -- 123
+    **1. Can the Cloud be publicly accessed?**
+
+    Yes. The Cloud can be publicly accessed over a secure VPN tunnel, and only authorised personnel will have access to the platform.
+
+    **2. How many data centers are available in Brazil?**
+
+    The solution is supported by two data centers in Brazil: the Elea Data Center in Brasília and the Equinix Data Center in São Paulo. These two locations provide regional redundancy and ensure that customer demand can be met reliably. Customers can access, provision, and consume services via a secure public link, with access restricted to authorised personnel only.
+
+    **3. Can TCS provide an off‑the‑shelf solution installed directly within Customer's data center?**
+
+    Yes. TCS can deliver an off‑the‑shelf, plug‑and‑play solution that is fully installed within the customer’s data center. The customer provides facilities and connectivity, while TCS supplies the integrated hardware, software, and services—allowing the customer to power it on and begin consuming the services immediately.
+
+    **4. Can the solution continue to operate and be managed if disconnected from the Internet?**
+
+    Yes. The solution can continue to function and be managed even during a disconnection from the Internet. It supports multiple operational modes including fully connected, semi‑connected, and air‑gapped ensuring that services can still be delivered and administered in the event of an internet outage.
 
 
 
 ## Deployment Models
 
 
-| Feature | TCS SovereignSecure Cloud | SovereignSecure Cloud Local |SovereignSecure Cloud Managed | Remarks |
-| :--- | :--- | :--- | :--- | :--- |
-| **Location** | TCS's Data Center | **Your DC or Your chosen DC** | **Your DC or Your chosen DC** |  |
-| **Hardware Ownership** | TCS | Your Organization | **TCS** |  |
-| **Cloud Platform Technical Stack Ownership** | TCS | TCS or Your Organization | TCS | |
-| **Tenancy** | **Multi-tenant** (Shared) or **(Dedicated)** | **Single-tenant** (Dedicated) | **Single-tenant** (Dedicated) |  |
-| **Scalability** | High | Limited by owned hardware | High |  |
-| **Control** | Medium | High  | High |   |
-| **Management** | TCS Managed |  Your Organization *  | TCS Managed |  * TCS will perform Build, Operate and Trasnfer Model|
-| **Cost Model** | OpEx (Pay-as-you-go) | Mixed/ OpEx  | OpEx (Pay-as-you-go) |  |
-| **Security** | Shared Responsibility* | Full Internal Control |  Full Internal Control |  * Upto Platform TCS, beyond platform Customer owns|
+| Feature | TCS SovereignSecure Cloud | SovereignSecure Cloud Local |SovereignSecure Cloud Managed | 
+| :--- | :--- | :--- | :--- |
+| **Location** | TCS's Data Center | **Your DC or Your chosen DC** | **Your DC or Your chosen DC** |
+| **Hardware Ownership** | TCS | Your Organization | **TCS** |
+| **Cloud Platform Technical Stack Ownership** | TCS | TCS or Your Organization | TCS |
+| **Tenancy** | **Multi-tenant** (Shared) or **(Dedicated)** | **Single-tenant** (Dedicated) | **Single-tenant** (Dedicated) |
+| **Scalability** | High | Limited by owned hardware | High |
+| **Control** | Medium | High  | High |
+| **Management** | TCS Managed |  Your Organization*  | TCS Managed |
+| **Cost Model** | OpEx (Pay-as-you-go) | Mixed/ OpEx  | OpEx (Pay-as-you-go) |
+| **Security** | Shared Responsibility** | Full Internal Control |  Full Internal Control |
 
-
-### TCS DC & TCS Hardware
-
-
-### Customer DC & TCS Hardware
-
-
-### Customer DC & Customer Hardware
-
+<small>_\* TCS will perform a Build, Operate, and Transfer model_</small>  
+<small>_\*\* Up to the platform level is managed by TCS, beyond the platform is the customer's responsibility_</small>
 
 
 

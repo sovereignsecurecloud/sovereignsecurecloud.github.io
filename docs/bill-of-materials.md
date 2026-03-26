@@ -2,7 +2,7 @@
 
 > **Note:** The brands, models, and configurations listed are examples. There is no single best specification for every use case. However, it is important to consider the underlying hardware when designing a cloud infrastructure.
 
-To build a cloud pod, a specific set of hardware components is required. This Bill of Materials (BOM) provides an overview of the typical hardware components used in an SovereignSecure Cloud environment.
+To build a cloud pod, a specific set of hardware components is required. This Bill of Materials (BOM) provides an overview of the typical hardware components used in a SovereignSecure Cloud environment.
 
 ---
 
@@ -10,7 +10,7 @@ To build a cloud pod, a specific set of hardware components is required. This Bi
 
 A standard deployment consists of several types of nodes, each serving a specific purpose within the infrastructure:
 
-* **Management Stack Nodes:** Run the management services (Ansible, Docker registry, Obserability, and Security etc.).
+* **Management Stack Nodes:** Run the management services (Ansible, Docker registry, Observability, Security, etc.).
 * **Control Nodes:** Run the control plane services (OpenStack APIs, databases, message queues).
 * **Compute Nodes:** Host the virtual machines (OpenStack Nova).
 * **Storage Nodes:** Provide the distributed storage backend (Ceph OSDs).
