@@ -2,6 +2,7 @@
 
 nav:
   - Welcome: index.md
+  - Bill of Materials: bill-of-materials.md
   - Getting Started:
       - Quick Start Guide: quickstart/index.md
       - Access & Client Setup: quickstart/login.md
@@ -61,7 +62,7 @@ nav:
 
 # Site Setting
 site_name: SovereignSecure Cloud
-site_author: kkramineni
+# site_author: kkramineni
 site_description: User Description for SovereignSecure Cloud
 
 # repo_name: sovereignsecurecloud

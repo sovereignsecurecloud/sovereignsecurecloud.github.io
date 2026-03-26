@@ -11,6 +11,18 @@ SovereignSecure Cloud is designed to meet the stringent requirements of data sov
 *   **Open Source Foundation:** Leveraging OpenStack and other open-source technologies minimizes vendor lock-in and provides a transparent, auditable stack.
 *   **Robust Security & Compliance:** We implement advanced security measures and maintain certifications to protect your sensitive workloads.
 
+## Deployment Models
+
+### TCS DC & TCS Hardware
+
+
+### Customer DC & TCS Hardware
+
+
+### Customer DC & Customer Hardware
+
+
+
 
 ## Services Overview
 
