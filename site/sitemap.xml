@@ -2,15 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://sovereignsecurecloud.com/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/"/>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/"/>
     </url>
     <url>
+        <loc>https://sovereignsecurecloud.com/architecture/</loc>
+        <lastmod>2026-03-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/architecture/"/>
+    </url>
+    <url>
         <loc>https://sovereignsecurecloud.com/api/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/api/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/api/"/>
@@ -18,7 +26,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/api/iac/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/api/iac/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/api/iac/"/>
@@ -26,7 +34,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/api/login/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/api/login/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/api/login/"/>
@@ -34,7 +42,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/cmp/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/cmp/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/cmp/"/>
@@ -42,7 +50,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/cmp/catalog/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/cmp/catalog/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/cmp/catalog/"/>
@@ -50,7 +58,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/cmp/reporting/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/cmp/reporting/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/cmp/reporting/"/>
@@ -58,7 +66,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/compute/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/"/>
@@ -66,7 +74,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/compute/bmaas/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/bmaas/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/bmaas/"/>
@@ -74,7 +82,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/compute/gpu_instance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/gpu_instance/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/gpu_instance/"/>
@@ -82,7 +90,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/compute/image/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/image/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/image/"/>
@@ -90,7 +98,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/compute/instance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/instance/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/instance/"/>
@@ -98,7 +106,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/compute/instance_user/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/instance_user/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/instance_user/"/>
@@ -106,7 +114,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/compute/keypair/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/keypair/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/keypair/"/>
@@ -114,7 +122,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/compute/openstack/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/openstack/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/openstack/"/>
@@ -122,7 +130,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/identity/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/"/>
@@ -130,7 +138,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/identity/keycloak/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/keycloak/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/keycloak/"/>
@@ -138,7 +146,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/identity/kms/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/kms/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/kms/"/>
@@ -146,7 +154,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/identity/projects/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/projects/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/projects/"/>
@@ -154,7 +162,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/identity/roles/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/roles/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/roles/"/>
@@ -162,7 +170,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/identity/siem/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/siem/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/siem/"/>
@@ -170,7 +178,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/identity/teleport/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/teleport/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/teleport/"/>
@@ -178,7 +186,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/kubernetes/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/kubernetes/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/"/>
@@ -186,7 +194,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/kubernetes/clusters/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/kubernetes/clusters/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/clusters/"/>
@@ -194,7 +202,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/kubernetes/k3s/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/kubernetes/k3s/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/k3s/"/>
@@ -202,7 +210,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/kubernetes/kaas/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/kubernetes/kaas/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/kaas/"/>
@@ -210,7 +218,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/network/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/"/>
@@ -218,7 +226,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/network/load_balancer/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/load_balancer/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/load_balancer/"/>
@@ -226,7 +234,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/network/routers_fips/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/routers_fips/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/routers_fips/"/>
@@ -234,7 +242,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/network/sdn/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/sdn/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/sdn/"/>
@@ -242,7 +250,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/network/security_group/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/security_group/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/security_group/"/>
@@ -250,7 +258,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/network/vpc/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/vpc/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/vpc/"/>
@@ -258,7 +266,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/network/vpn_direct_connect/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/vpn_direct_connect/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/vpn_direct_connect/"/>
@@ -266,7 +274,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/observability/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/observability/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/observability/"/>
@@ -274,7 +282,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/observability/prometheus_grafana/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/observability/prometheus_grafana/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/observability/prometheus_grafana/"/>
@@ -282,7 +290,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/ai-machine-learning/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/ai-machine-learning/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/ai-machine-learning/"/>
@@ -290,7 +298,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/analytics/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/analytics/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/analytics/"/>
@@ -298,7 +306,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/api/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/api/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/api/"/>
@@ -306,7 +314,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/compute/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/compute/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/compute/"/>
@@ -314,7 +322,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/containers/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/containers/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/containers/"/>
@@ -322,7 +330,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/databases/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/databases/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/databases/"/>
@@ -330,7 +338,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/devops/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/devops/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/devops/"/>
@@ -338,7 +346,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/identity/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/identity/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/identity/"/>
@@ -346,7 +354,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/integration/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/integration/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/integration/"/>
@@ -354,7 +362,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/management-governance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/management-governance/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/management-governance/"/>
@@ -362,7 +370,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/migration/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/migration/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/migration/"/>
@@ -370,7 +378,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/networking/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/networking/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/networking/"/>
@@ -378,7 +386,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/security/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/security/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/security/"/>
@@ -386,7 +394,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/product_content/storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/storage/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/storage/"/>
@@ -394,7 +402,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/quickstart/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/quickstart/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/quickstart/"/>
@@ -402,7 +410,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/quickstart/compliance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/quickstart/compliance/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/quickstart/compliance/"/>
@@ -410,7 +418,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/quickstart/login/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/quickstart/login/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/quickstart/login/"/>
@@ -418,7 +426,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/storage/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/"/>
@@ -426,7 +434,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/storage/block_storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/storage/block_storage/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/block_storage/"/>
@@ -434,7 +442,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/storage/ceph/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/storage/ceph/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/ceph/"/>
@@ -442,7 +450,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/storage/file_storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/storage/file_storage/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/file_storage/"/>
@@ -450,7 +458,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/storage/object_storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/storage/object_storage/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/object_storage/"/>
@@ -458,7 +466,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/support/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/support/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/support/"/>
@@ -466,7 +474,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/support/sla/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/support/sla/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/support/sla/"/>
@@ -474,15 +482,23 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/"/>
     </url>
     <url>
+        <loc>https://sovereignsecurecloud.com/pt-BR/architecture/</loc>
+        <lastmod>2026-03-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/architecture/"/>
+    </url>
+    <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/api/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/api/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/api/"/>
@@ -490,7 +506,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/api/iac/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/api/iac/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/api/iac/"/>
@@ -498,7 +514,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/api/login/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/api/login/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/api/login/"/>
@@ -506,7 +522,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/cmp/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/cmp/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/cmp/"/>
@@ -514,7 +530,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/cmp/catalog/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/cmp/catalog/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/cmp/catalog/"/>
@@ -522,7 +538,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/cmp/reporting/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/cmp/reporting/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/cmp/reporting/"/>
@@ -530,7 +546,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/compute/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/compute/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/"/>
@@ -538,7 +554,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/compute/bmaas/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/compute/bmaas/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/bmaas/"/>
@@ -546,7 +562,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/compute/gpu_instance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/compute/gpu_instance/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/gpu_instance/"/>
@@ -554,7 +570,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/compute/image/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/compute/image/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/image/"/>
@@ -562,7 +578,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/compute/instance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/compute/instance/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/instance/"/>
@@ -570,7 +586,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/compute/instance_user/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/compute/instance_user/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/instance_user/"/>
@@ -578,7 +594,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/compute/keypair/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/compute/keypair/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/keypair/"/>
@@ -586,7 +602,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/compute/openstack/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/compute/openstack/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/openstack/"/>
@@ -594,7 +610,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/identity/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/identity/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/"/>
@@ -602,7 +618,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/identity/keycloak/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/identity/keycloak/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/keycloak/"/>
@@ -610,7 +626,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/identity/kms/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/identity/kms/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/kms/"/>
@@ -618,7 +634,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/identity/projects/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/identity/projects/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/projects/"/>
@@ -626,7 +642,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/identity/roles/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/identity/roles/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/roles/"/>
@@ -634,7 +650,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/identity/siem/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/identity/siem/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/siem/"/>
@@ -642,7 +658,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/identity/teleport/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/identity/teleport/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/teleport/"/>
@@ -650,7 +666,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/kubernetes/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/kubernetes/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/"/>
@@ -658,7 +674,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/kubernetes/clusters/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/kubernetes/clusters/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/clusters/"/>
@@ -666,7 +682,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/kubernetes/k3s/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/kubernetes/k3s/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/k3s/"/>
@@ -674,7 +690,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/kubernetes/kaas/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/kubernetes/kaas/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/kaas/"/>
@@ -682,7 +698,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/network/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/network/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/"/>
@@ -690,7 +706,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/network/load_balancer/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/network/load_balancer/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/load_balancer/"/>
@@ -698,7 +714,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/network/routers_fips/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/network/routers_fips/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/routers_fips/"/>
@@ -706,7 +722,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/network/sdn/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/network/sdn/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/sdn/"/>
@@ -714,7 +730,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/network/security_group/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/network/security_group/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/security_group/"/>
@@ -722,7 +738,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/network/vpc/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/network/vpc/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/vpc/"/>
@@ -730,7 +746,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/network/vpn_direct_connect/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/network/vpn_direct_connect/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/vpn_direct_connect/"/>
@@ -738,7 +754,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/observability/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/observability/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/observability/"/>
@@ -746,7 +762,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/observability/prometheus_grafana/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/observability/prometheus_grafana/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/observability/prometheus_grafana/"/>
@@ -754,7 +770,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/ai-machine-learning/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/ai-machine-learning/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/ai-machine-learning/"/>
@@ -762,7 +778,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/analytics/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/analytics/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/analytics/"/>
@@ -770,7 +786,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/api/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/api/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/api/"/>
@@ -778,7 +794,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/compute/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/compute/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/compute/"/>
@@ -786,7 +802,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/containers/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/containers/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/containers/"/>
@@ -794,7 +810,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/databases/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/databases/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/databases/"/>
@@ -802,7 +818,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/devops/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/devops/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/devops/"/>
@@ -810,7 +826,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/identity/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/identity/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/identity/"/>
@@ -818,7 +834,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/integration/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/integration/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/integration/"/>
@@ -826,7 +842,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/management-governance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/management-governance/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/management-governance/"/>
@@ -834,7 +850,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/migration/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/migration/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/migration/"/>
@@ -842,7 +858,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/networking/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/networking/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/networking/"/>
@@ -850,7 +866,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/security/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/security/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/security/"/>
@@ -858,7 +874,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/product_content/storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/product_content/storage/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/storage/"/>
@@ -866,7 +882,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/quickstart/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/quickstart/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/quickstart/"/>
@@ -874,7 +890,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/quickstart/compliance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/quickstart/compliance/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/quickstart/compliance/"/>
@@ -882,7 +898,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/quickstart/login/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/quickstart/login/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/quickstart/login/"/>
@@ -890,7 +906,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/storage/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/"/>
@@ -898,7 +914,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/storage/block_storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/storage/block_storage/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/block_storage/"/>
@@ -906,7 +922,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/storage/ceph/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/storage/ceph/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/ceph/"/>
@@ -914,7 +930,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/storage/file_storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/storage/file_storage/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/file_storage/"/>
@@ -922,7 +938,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/storage/object_storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/storage/object_storage/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/object_storage/"/>
@@ -930,7 +946,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/support/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/support/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/support/"/>
@@ -938,7 +954,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/pt-BR/support/sla/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/support/sla/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/support/sla/"/>
@@ -946,15 +962,23 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/"/>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/"/>
     </url>
     <url>
+        <loc>https://sovereignsecurecloud.com/de/architecture/</loc>
+        <lastmod>2026-03-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://sovereignsecurecloud.com/pt-BR/architecture/"/>
+    </url>
+    <url>
         <loc>https://sovereignsecurecloud.com/de/api/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/api/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/api/"/>
@@ -962,7 +986,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/api/iac/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/api/iac/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/api/iac/"/>
@@ -970,7 +994,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/api/login/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/api/login/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/api/login/"/>
@@ -978,7 +1002,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/cmp/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/cmp/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/cmp/"/>
@@ -986,7 +1010,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/cmp/catalog/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/cmp/catalog/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/cmp/catalog/"/>
@@ -994,7 +1018,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/cmp/reporting/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/cmp/reporting/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/cmp/reporting/"/>
@@ -1002,7 +1026,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/compute/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/"/>
@@ -1010,7 +1034,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/compute/bmaas/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/bmaas/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/bmaas/"/>
@@ -1018,7 +1042,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/compute/gpu_instance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/gpu_instance/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/gpu_instance/"/>
@@ -1026,7 +1050,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/compute/image/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/image/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/image/"/>
@@ -1034,7 +1058,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/compute/instance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/instance/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/instance/"/>
@@ -1042,7 +1066,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/compute/instance_user/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/instance_user/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/instance_user/"/>
@@ -1050,7 +1074,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/compute/keypair/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/keypair/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/keypair/"/>
@@ -1058,7 +1082,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/compute/openstack/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/compute/openstack/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/compute/openstack/"/>
@@ -1066,7 +1090,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/identity/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/"/>
@@ -1074,7 +1098,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/identity/keycloak/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/keycloak/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/keycloak/"/>
@@ -1082,7 +1106,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/identity/kms/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/kms/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/kms/"/>
@@ -1090,7 +1114,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/identity/projects/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/projects/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/projects/"/>
@@ -1098,7 +1122,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/identity/roles/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/roles/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/roles/"/>
@@ -1106,7 +1130,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/identity/siem/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/siem/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/siem/"/>
@@ -1114,7 +1138,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/identity/teleport/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/identity/teleport/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/identity/teleport/"/>
@@ -1122,7 +1146,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/kubernetes/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/kubernetes/"/>
@@ -1130,7 +1154,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/kubernetes/clusters/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/clusters/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/kubernetes/clusters/"/>
@@ -1138,7 +1162,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/kubernetes/k3s/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/k3s/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/kubernetes/k3s/"/>
@@ -1146,7 +1170,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/kubernetes/kaas/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/kubernetes/kaas/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/kubernetes/kaas/"/>
@@ -1154,7 +1178,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/network/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/"/>
@@ -1162,7 +1186,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/network/load_balancer/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/load_balancer/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/load_balancer/"/>
@@ -1170,7 +1194,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/network/routers_fips/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/routers_fips/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/routers_fips/"/>
@@ -1178,7 +1202,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/network/sdn/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/sdn/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/sdn/"/>
@@ -1186,7 +1210,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/network/security_group/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/security_group/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/security_group/"/>
@@ -1194,7 +1218,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/network/vpc/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/vpc/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/vpc/"/>
@@ -1202,7 +1226,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/network/vpn_direct_connect/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/network/vpn_direct_connect/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/network/vpn_direct_connect/"/>
@@ -1210,7 +1234,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/observability/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/observability/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/observability/"/>
@@ -1218,7 +1242,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/observability/prometheus_grafana/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/observability/prometheus_grafana/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/observability/prometheus_grafana/"/>
@@ -1226,7 +1250,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/ai-machine-learning/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/ai-machine-learning/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/ai-machine-learning/"/>
@@ -1234,7 +1258,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/analytics/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/analytics/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/analytics/"/>
@@ -1242,7 +1266,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/api/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/api/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/api/"/>
@@ -1250,7 +1274,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/compute/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/compute/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/compute/"/>
@@ -1258,7 +1282,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/containers/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/containers/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/containers/"/>
@@ -1266,7 +1290,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/databases/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/databases/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/databases/"/>
@@ -1274,7 +1298,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/devops/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/devops/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/devops/"/>
@@ -1282,7 +1306,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/identity/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/identity/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/identity/"/>
@@ -1290,7 +1314,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/integration/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/integration/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/integration/"/>
@@ -1298,7 +1322,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/management-governance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/management-governance/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/management-governance/"/>
@@ -1306,7 +1330,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/migration/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/migration/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/migration/"/>
@@ -1314,7 +1338,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/networking/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/networking/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/networking/"/>
@@ -1322,7 +1346,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/security/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/security/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/security/"/>
@@ -1330,7 +1354,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/product_content/storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/product_content/storage/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/product_content/storage/"/>
@@ -1338,7 +1362,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/quickstart/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/quickstart/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/quickstart/"/>
@@ -1346,7 +1370,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/quickstart/compliance/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/quickstart/compliance/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/quickstart/compliance/"/>
@@ -1354,7 +1378,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/quickstart/login/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/quickstart/login/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/quickstart/login/"/>
@@ -1362,7 +1386,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/storage/"/>
@@ -1370,7 +1394,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/storage/block_storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/block_storage/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/storage/block_storage/"/>
@@ -1378,7 +1402,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/storage/ceph/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/ceph/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/storage/ceph/"/>
@@ -1386,7 +1410,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/storage/file_storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/file_storage/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/storage/file_storage/"/>
@@ -1394,7 +1418,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/storage/object_storage/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/storage/object_storage/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/storage/object_storage/"/>
@@ -1402,7 +1426,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/support/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/support/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/support/"/>
@@ -1410,7 +1434,7 @@
     </url>
     <url>
         <loc>https://sovereignsecurecloud.com/de/support/sla/</loc>
-        <lastmod>2026-03-24</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://sovereignsecurecloud.com/de/support/sla/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://sovereignsecurecloud.com/support/sla/"/>
