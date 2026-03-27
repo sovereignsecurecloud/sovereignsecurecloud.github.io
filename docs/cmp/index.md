@@ -32,5 +32,18 @@ Leveraging our CMP offers several key advantages for your organization:
 2. Log in using your organizational Single Sign-On (SSO) credentials or your project-specific administrator account.
 3. From the dashboard, you can view a summary of your running workloads, pending catalog requests, and recent alerts.
 
+## Additional Cloud Supported
+
+1. Alibaba Cloud
+2. Huawei Cloud
+3. Amazon Web Services (AWS)
+4. Microsoft Azure
+5. Google Cloud Platform (GCP)
+6. Oracle Cloud
+7. Tencent Cloud
+8. OpenStack Cloud
+9. VMware vSphere
+10. Nutanix
+
 !!! tip "For Advanced Users and Automation"
     Beyond the graphical Cloud Console, you can also interact with the CMP and underlying OpenStack infrastructure programmatically. Refer to the API & Automation section for details on using the ManageIQ REST API and OpenStack native CLIs.

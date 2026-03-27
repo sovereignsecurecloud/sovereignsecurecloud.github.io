@@ -18,15 +18,15 @@ SovereignSecure Cloud is designed to meet the stringent requirements of data sov
 
     **2. How many data centers are available in Brazil?**
 
-    The solution is supported by two data centers in Brazil: the Elea Data Center in Brasília and the Equinix Data Center in São Paulo. These two locations provide regional redundancy and ensure that customer demand can be met reliably. Customers can access, provision, and consume services via a secure public link, with access restricted to authorised personnel only.
+    The solution will be supported by two partner data centers in Brazil: One is Brasília and another one in São Paulo. These two locations will provide regional redundancy and ensure that customer demand can be met reliably. Customers can access, provision, and consume services via a secure public link, with access restricted to authorised personnel only.
 
     **3. Can TCS provide an off‑the‑shelf solution installed directly within Customer's data center?**
 
-    Yes. TCS can deliver an off‑the‑shelf, plug‑and‑play solution that is fully installed within the customer’s data center. The customer provides facilities and connectivity, while TCS supplies the integrated hardware, software, and services—allowing the customer to power it on and begin consuming the services immediately.
+    Yes. TCS can deliver an off‑the‑shelf, plug‑and‑play solution that is fully installed within the customer’s data center. The customer provides facilities and connectivity, while TCS supplies the integrated hardware, software, and services—allowing the customer to power it on and begin consuming the services immediately. The same can be applicable on Customer's provided hardware.
 
     **4. Can the solution continue to operate and be managed if disconnected from the Internet?**
 
-    Yes. The solution can continue to function and be managed even during a disconnection from the Internet. It supports multiple operational modes including fully connected, semi‑connected, and air‑gapped ensuring that services can still be delivered and administered in the event of an internet outage.
+    Yes. The solution can continue to function and be managed even during a disconnection from the Internet. It supports multiple operational modes including fully connected, semi‑connected, and air‑gapped ensuring that services can still be delivered and administered in a disconnected mode with no internet connectivity.
 
 
 
@@ -41,12 +41,13 @@ SovereignSecure Cloud is designed to meet the stringent requirements of data sov
 | **Tenancy** | **Multi-tenant** (Shared) or **(Dedicated)** | **Single-tenant** (Dedicated) | **Single-tenant** (Dedicated) |
 | **Scalability** | High | Limited by owned hardware | High |
 | **Control** | Medium | High  | High |
-| **Management** | TCS Managed |  Your Organization*  | TCS Managed |
+| **Management** | TCS Managed |  Your Organization^1^  | TCS Managed |
 | **Cost Model** | OpEx (Pay-as-you-go) | Mixed/ OpEx  | OpEx (Pay-as-you-go) |
-| **Security** | Shared Responsibility** | Full Internal Control |  Full Internal Control |
+| **Security** | Shared Responsibility^2^ | Full Internal Control |  Full Internal Control |
 
-<small>_\* TCS will perform a Build, Operate, and Transfer model_</small>  
-<small>_\*\* Up to the platform level is managed by TCS, beyond the platform is the customer's responsibility_</small>
+<small>_^1^ TCS will perform a Build, Operate, and Transfer management to Your Organization_</small> 
+
+<small>_^2^ Up to the platform level is managed by TCS, beyond the platform is the customer's responsibility_</small>
 
 
 

@@ -123,3 +123,4 @@ Built on top of the SDI layer, the PaaS layer offers higher-level services that 
  | **Kubernetes** | K3s |
  | **Identity Management** | Keycloak |
 
+> **Note:** The brands, models, and configurations listed are examples. There is no single best specification for every use case. However, it is important to consider the underlying hardware when designing a cloud infrastructure.

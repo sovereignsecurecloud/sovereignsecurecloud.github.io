@@ -31,5 +31,18 @@ Die Nutzung unserer CMP bietet Ihrem Unternehmen mehrere wichtige Vorteile:
 2. Melden Sie sich mit den Single Sign-On (SSO)-Anmeldeinformationen Ihres Unternehmens oder Ihrem projektspezifischen Administratorkonto an.
 3. Auf dem Dashboard können Sie eine Zusammenfassung Ihrer laufenden Workloads, ausstehenden Kataloganfragen und aktuellen Benachrichtigungen einsehen.
 
+## Extra Cloud Ondersteund
+
+1. Alibaba Cloud
+2. Huawei Cloud
+3. Amazon Web Services (AWS)
+4. Microsoft Azure
+5. Google Cloud Platform (GCP)
+6. Oracle Cloud
+7. Tencent Cloud
+8. OpenStack Cloud
+9. VMware vSphere
+10. Nutanix
+
 !!! tip "Für fortgeschrittene Benutzer und Automatisierung"
     Neben der grafischen Cloud-Konsole können Sie auch programmgesteuert mit der CMP und der zugrunde liegenden OpenStack-Infrastruktur interagieren. Weitere Informationen zur Verwendung der ManageIQ-REST-API und der nativen OpenStack-CLIs finden Sie im Abschnitt API & Automatisierung.

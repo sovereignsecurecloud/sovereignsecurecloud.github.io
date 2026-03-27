@@ -3,7 +3,6 @@
 nav:
   - Welcome: index.md
   - Architecture: architecture.md
-  - Bill of Materials: bill-of-materials.md
   - Getting Started:
       - Quick Start Guide: quickstart/index.md
       - Access & Client Setup: quickstart/login.md
@@ -213,6 +212,7 @@ plugins:
           name: Portuguese (Brasilian)
           build: true 
           nav_translations:
+                Architecture: Arquitetura
                 Welcome: Bem-vindo
                 Getting Started: Primeiros Passos
                 Quick Start Guide: Guia de Início Rápido
@@ -268,6 +268,7 @@ plugins:
           name: German
           build: true
           nav_translations:
+                Architecture: Architektur
                 Welcome: Willkommen
                 Getting Started: Erste Schritte
                 Quick Start Guide: Schnellstartanleitung

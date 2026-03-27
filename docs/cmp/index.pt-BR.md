@@ -30,5 +30,18 @@ Aproveitar nosso CMP oferece várias vantagens importantes para a sua organizaç
 2. Faça o login usando as credenciais de logon único (SSO) da sua organização ou sua conta de administrador específica do projeto.
 3. A partir do painel (dashboard), você pode visualizar um resumo de suas cargas de trabalho em execução, solicitações de catálogo pendentes e alertas recentes.
 
+## Nuvem Adicional Suportada
+
+1. Alibaba Cloud
+2. Huawei Cloud
+3. Amazon Web Services (AWS)
+4. Microsoft Azure
+5. Google Cloud Platform (GCP)
+6. Oracle Cloud
+7. Tencent Cloud
+8. OpenStack Cloud
+9. VMware vSphere
+10. Nutanix
+
 !!! tip "Para Usuários Avançados e Automação"
     Além do Console da Nuvem gráfico, você também pode interagir com o CMP e a infraestrutura subjacente do OpenStack de forma programática. Consulte a seção de API e Automação para obter detalhes sobre o uso da API REST do ManageIQ e das CLIs nativas do OpenStack.
