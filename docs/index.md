@@ -16,15 +16,11 @@ SovereignSecure Cloud is designed to meet the stringent requirements of data sov
 
     Yes. The Cloud can be publicly accessed over a secure VPN tunnel, and only authorised personnel will have access to the platform.
 
-    **2. How many data centers are available in Brazil?**
-
-    The solution will be supported by two partner data centers in Brazil: One is Brasília and another one in São Paulo. These two locations will provide regional redundancy and ensure that customer demand can be met reliably. Customers can access, provision, and consume services via a secure public link, with access restricted to authorised personnel only.
-
-    **3. Can TCS provide an off‑the‑shelf solution installed directly within Customer's data center?**
+    **2. Can TCS provide an off‑the‑shelf solution installed directly within Customer's data center?**
 
     Yes. TCS can deliver an off‑the‑shelf, plug‑and‑play solution that is fully installed within the customer’s data center. The customer provides facilities and connectivity, while TCS supplies the integrated hardware, software, and services—allowing the customer to power it on and begin consuming the services immediately. The same can be applicable on Customer's provided hardware.
 
-    **4. Can the solution continue to operate and be managed if disconnected from the Internet?**
+    **3. Can the solution continue to operate and be managed if disconnected from the Internet?**
 
     Yes. The solution can continue to function and be managed even during a disconnection from the Internet. It supports multiple operational modes including fully connected, semi‑connected, and air‑gapped ensuring that services can still be delivered and administered in a disconnected mode with no internet connectivity.
 
